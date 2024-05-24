@@ -24,6 +24,9 @@ header {
     z-index: 99; /* Raise header on z axis to layer above everything */
     width: 100%; /* Fill full width */
     box-shadow: 0px 2px 6px 0px #3A3A3A;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -50,6 +53,31 @@ h1 {
 
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+
+/*Navbar styling with dropdown */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%; /* Full width of screen */
+    left: 0; /* Align Left */
+    padding: 0 1rem;
+    box-shadow: 0px 2px 6px 0px #3a3a3a;
+    display: none; /* Hide nav elements, html needed to create open/dropdown  */
+    top: 100%;
+}
+
+/* Navigation Toggle */
+#toggle-nav:checked~nav {
+    display: block;
+}
+
+#toggle-nav {
+    display: none;
+}
+
+.toggle-nav-label {
+    font-size: 2rem;
 }
 
 /* Main */
