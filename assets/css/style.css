@@ -21,6 +21,9 @@ header {
     background-color: coral;
 }
 
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
 /* Main */
 main {
     background-color: lightblue;
