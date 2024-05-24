@@ -85,6 +85,7 @@ main {
     background-color: lightblue;
     /* Make main element take up all availavle space, pushing footer to the bottom */
     flex: 1 0 auto; /* use flex - grow - automatically take up all the space  */
+    margin-top: 40px;
 }
 
 /* Footer */
