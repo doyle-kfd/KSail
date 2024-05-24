@@ -18,11 +18,19 @@ body {
 
 /* Header */
 header {
-    background-color: coral;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed; /* Keep header in position when scrolling on mobile phone */
+    z-index: 99; /* Raise header on z axis to layer above everything */
+    width: 100%; /* Fill full width */
+    box-shadow: 0px 2px 6px 0px #3A3A3A;
 }
 
-h1, h2, h3 {
+h1 {
     font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:#3a3a3a;
 }
 /* Main */
 main {
