@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+body {
+    min-height: 100vh; /* vody should take up full height of screen */
+    display: flex; /* responsive design */
+    flex-direction: column;
+    color: #3a3a3a;
+}
+
 /* Header */
 header {
     background-color: coral;
@@ -13,6 +20,8 @@ header {
 /* Main */
 main {
     background-color: lightblue;
+    /* Make main element take up all availavle space, pushing footer to the bottom */
+    flex: 1 0 auto; /* use flex - grow - automatically take up all the space  */
 }
 
 /* Footer */
