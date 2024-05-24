@@ -92,3 +92,28 @@ main {
 footer {
     background-color: orange;
 }
+
+/* Media query: tablets and larger (760px and up) */
+
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block; /* always show */
+        position: relative; /* show inside header */
+        box-shadow: none; /* remove box shadow */
+        width: fit-content; /* Change width to fit content */
+        padding-right: 1rem; /* add some padding on right to keep off border */
+    }
+
+    #menu {
+        display: flex; /* Show menu items in a row */
+    }
+
+    #menu > li {
+        padding-left: 1rem; /* Add padding between meny items */
+    }
+
+    .toggle-nav-label {
+        display: none; /* Hide nav label */
+    }
+}
