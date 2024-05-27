@@ -9,27 +9,34 @@
 }
 
 body {
-    min-height: 100vh; /* vody should take up full height of screen */
-    display: flex; /* responsive design */
+    min-height: 100vh;
+    /* vody should take up full height of screen */
+    display: flex;
+    /* responsive design */
     flex-direction: column;
     color: #3a3a3a;
-    font-family: 'Lato' , sans-serif;
-} 
+    font-family: 'Lato', sans-serif;
+}
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color:#003366;
+    color: #003366;
 }
 
 /* Header */
 header {
     background-color: #ffffff;
     padding: 0 1rem;
-    position: fixed; /* Keep header in position when scrolling on mobile phone */
-    z-index: 99; /* Raise header on z axis to layer above everything */
-    width: 100%; /* Fill full width */
+    position: fixed;
+    /* Keep header in position when scrolling on mobile phone */
+    z-index: 99;
+    /* Raise header on z axis to layer above everything */
+    width: 100%;
+    /* Fill full width */
     box-shadow: 0px 2px 6px 0px #3A3A3A;
     display: flex;
     justify-content: space-between;
@@ -51,7 +58,7 @@ header a {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -63,11 +70,14 @@ header a {
 nav {
     position: absolute;
     background-color: #ffffff;
-    width: 100%; /* Full width of screen */
-    left: 0; /* Align Left */
+    width: 100%;
+    /* Full width of screen */
+    left: 0;
+    /* Align Left */
     padding: 0 1rem;
     box-shadow: 0px 2px 6px 0px #3a3a3a;
-    display: none; /* Hide nav elements, html needed to create open/dropdown  */
+    display: none;
+    /* Hide nav elements, html needed to create open/dropdown  */
     top: 100%;
 }
 
@@ -88,13 +98,14 @@ nav {
 main {
     background-color: #ffffff;
     /* Make main element take up all availavle space, pushing footer to the bottom */
-    flex: 1 0 auto; /* use flex - grow - automatically take up all the space  */
+    flex: 1 0 auto;
+    /* use flex - grow - automatically take up all the space  */
     margin-top: 40px;
 }
 
 /* Hero Section */
 #hero-section {
-    height: 600px;
+    height: 500px;
     width: 100%;
     background: url("../images/hero-image-learn-to-sail.jpg") no-repeat center center/cover;
     position: relative;
@@ -102,8 +113,10 @@ main {
 
 /* Positioning hero text box */
 #hero-text {
-    background-color: RGBA(183,15,38,0.50); /* Opacity on bg color for effect */
-    position: absolute; /* Position hero text box on screen */
+    background-color: RGBA(183, 15, 38, 0.50);
+    /* Opacity on bg color for effect */
+    position: absolute;
+    /* Position hero text box on screen */
     bottom: 30px;
     width: 80%;
     min-height: 200px;
@@ -112,16 +125,18 @@ main {
 }
 
 /* Styling h2 and h3 text */
-#hero-text h2, h3 {
+#hero-text h2,
+h3 {
     font-size: 120%;
     color: #ffffff;
     /* text shadow to make heading pop on the opaqye bg */
     text-shadow: 1px 1px 1px #3A3A3A;
-    text-transform: capitalize; /* Added to capatilise first letter in each h2 and h3 word */
+    text-transform: capitalize;
+    /* Added to capatilise first letter in each h2 and h3 word */
 }
 
 /* Styling h2 specific text */
-#hero-text > h2 {
+#hero-text>h2 {
     padding-bottom: 10px;
     font-size: 140%;
 
@@ -129,24 +144,37 @@ main {
 
 
 /* Style ksail reasons section */
-#ksail-reasons {    
+#ksail-reasons {
     width: 90%;
     margin: 20px auto;
 }
 
 
-/* ksail options */
-#ksail-options {    
+/* ksail options styling background image with color overlay*/
+#ksail-options {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 51, 102, 0.7),
+        rgb(0, 51, 102,  0.7)
+      ), url("../images/learning-to-sail.jpg");
+      background-position: center;
+}
+
+
+/* ksail choices */
+#ksail-choices {
     width: 90%;
     margin: 20px auto;
 }
 
 /* ksail reasons reset h2 and h3 to standard color and no shadow */
 
-#ksail-reasons  h3 {
+#ksail-reasons h3 {
     color: #003366;
     text-shadow: none;
 }
+
+
 
 
 /* Footer */
@@ -172,31 +200,36 @@ footer {
 
 @media screen and (min-width: 280px) {
 
-    #hero-text > h2, #hero-text > h3 {
+    #hero-text>h2,
+    #hero-text>h3 {
         color: #ffffff;
         text-shadow: 1px 1px 1px #3A3A3A;
     }
 
 
     footer {
-        position: fixed; /* Keep footer in position when scrolling */
-        z-index: 99; /* Raise header on z axis to layer above everything */
-        width: 100%; /* Fill full width */
+        position: fixed;
+        /* Keep footer in position when scrolling */
+        z-index: 99;
+        /* Raise header on z axis to layer above everything */
+        width: 100%;
+        /* Fill full width */
         box-shadow: 0px -2px 6px 0px #3A3A3A;
-        bottom: 0; /* Fix footer to bottom of the screen */
+        bottom: 0;
+        /* Fix footer to bottom of the screen */
     }
 
     /* Style intro text on page */
-    #ksail-reasons > h2   {
+    #ksail-reasons>h2 {
         font-size: 1rem;
         padding-top: 10px;
         padding-bottom: 15px;
         text-align: center;
-        color:#ffffff;
+        color: #ffffff;
         background-color: #003366;
     }
 
-    #ksail-reasons > h3 {
+    #ksail-reasons>h3 {
         font-size: 1rem;
         padding-top: 5px;
         padding-bottom: 5px;
@@ -208,26 +241,35 @@ footer {
 /* Media query: tablets and larger (760px and up) */
 
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
-        display: block; /* always show */
-        position: relative; /* show inside header */
-        box-shadow: none; /* remove box shadow */
-        width: fit-content; /* Change width to fit content */
-        padding-right: 1rem; /* add some padding on right to keep off border */
+        display: block;
+        /* always show */
+        position: relative;
+        /* show inside header */
+        box-shadow: none;
+        /* remove box shadow */
+        width: fit-content;
+        /* Change width to fit content */
+        padding-right: 1rem;
+        /* add some padding on right to keep off border */
     }
 
     #menu {
-        display: flex; /* Show menu items in a row */
+        display: flex;
+        /* Show menu items in a row */
     }
 
-    #menu > li {
-        padding-left: 1rem; /* Add padding between meny items */
+    #menu>li {
+        padding-left: 1rem;
+        /* Add padding between meny items */
         font-size: 1.5rem;
     }
 
     .toggle-nav-label {
-        display: none; /* Hide nav label */
+        display: none;
+        /* Hide nav label */
     }
 
     #logo {
