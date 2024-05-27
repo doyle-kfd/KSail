@@ -151,28 +151,21 @@ h3 {
 
 
 /* ksail options styling background image with color overlay*/
-#ksail-options {
-    background-image: linear-gradient(
-        to bottom,
-        rgba(0, 51, 102, 0.7),
-        rgb(0, 51, 102,  0.7)
-      ), url("../images/learning-to-sail.jpg");
-      background-position: center;
-}
-
-
-/* ksail choices */
 #ksail-choices {
-    width: 90%;
-    margin: 20px auto;
-    padding-top: 10px;
+    background: url('../images/learning-to-sail.jpg') no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
 }
-
 
 /* Give div in choices section darker background to stand */
-#ksail-choices > div {
-    background-color: #0033666e;
+#ksail-choices div {
+    background-color: #003366a6;
     padding: 10px;
+    /* will not wrap on screens of 400px or less
+       Each div will expand to fill the spave available on the row. */
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid #ffffff;
 }
 
 /* Style choice list items */
