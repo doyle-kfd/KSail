@@ -27,6 +27,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    border-top: 5px solid #b70f26;
+    border-bottom: 5px solid #b70f26;
 }
 
 header a {
@@ -38,7 +40,7 @@ h1 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color:#3a3a3a;
+    color:#003366;
 }
 
 #menu {
@@ -90,7 +92,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: #003366;
+    background-color: #b70f26;
 }
 
 #social-network {
@@ -105,6 +107,21 @@ footer {
     font-size: 160%;
     padding: 5%;
 }
+
+
+/* Media query: mobile phone (280px and up)  */
+
+@media screen and (min-width: 280px) {
+    footer {
+        position: fixed; /* Keep footer in position when scrolling */
+        z-index: 99; /* Raise header on z axis to layer above everything */
+        width: 100%; /* Fill full width */
+        box-shadow: 0px -2px 6px 0px #3A3A3A;
+        bottom: 0; /* Fix footer to bottom of the screen */
+    }
+
+}
+
 
 /* Media query: tablets and larger (760px and up) */
 
@@ -140,6 +157,8 @@ footer {
         /* Push main content down 75px on the larget screen */
         margin-top: 75px;
     }
+
+
 }
 
 /* Media query: laptops and larger (992px and up) */
