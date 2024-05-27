@@ -86,7 +86,7 @@ nav {
 
 /* Main */
 main {
-    background-color: lightblue;
+    background-color: #ffffff;
     /* Make main element take up all availavle space, pushing footer to the bottom */
     flex: 1 0 auto; /* use flex - grow - automatically take up all the space  */
     margin-top: 40px;
@@ -117,6 +117,7 @@ main {
     color: #ffffff;
     /* text shadow to make heading pop on the opaqye bg */
     text-shadow: 1px 1px 1px #3A3A3A;
+    text-transform: capitalize; /* Added to capatilise first letter in each h2 and h3 word */
 }
 
 /* Styling h2 specific text */
@@ -124,6 +125,27 @@ main {
     padding-bottom: 10px;
     font-size: 140%;
 
+}
+
+
+/* Style ksail reasons section */
+#ksail-reasons {    
+    width: 90%;
+    margin: 20px auto;
+}
+
+
+/* ksail options */
+#ksail-options {    
+    width: 90%;
+    margin: 20px auto;
+}
+
+/* ksail reasons reset h2 and h3 to standard color and no shadow */
+
+#ksail-reasons  h3 {
+    color: #003366;
+    text-shadow: none;
 }
 
 
@@ -149,12 +171,35 @@ footer {
 /* Media query: mobile phone (280px and up)  */
 
 @media screen and (min-width: 280px) {
+
+    #hero-text > h2, #hero-text > h3 {
+        color: #ffffff;
+        text-shadow: 1px 1px 1px #3A3A3A;
+    }
+
+
     footer {
         position: fixed; /* Keep footer in position when scrolling */
         z-index: 99; /* Raise header on z axis to layer above everything */
         width: 100%; /* Fill full width */
         box-shadow: 0px -2px 6px 0px #3A3A3A;
         bottom: 0; /* Fix footer to bottom of the screen */
+    }
+
+    /* Style intro text on page */
+    #ksail-reasons > h2   {
+        font-size: 1rem;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        text-align: center;
+        color:#ffffff;
+        background-color: #003366;
+    }
+
+    #ksail-reasons > h3 {
+        font-size: 1rem;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 
 }
