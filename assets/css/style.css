@@ -165,8 +165,22 @@ h3 {
 #ksail-choices {
     width: 90%;
     margin: 20px auto;
+    padding-top: 10px;
 }
 
+
+/* Give div in choices section darker background to stand */
+#ksail-choices > div {
+    background-color: #0033666e;
+    padding: 10px;
+}
+
+/* Style choice list items */
+#ksail-choices  li {
+    color: #ffffff;
+    list-style-type:  none;
+    padding-bottom: 0.5rem;
+}
 /* ksail reasons reset h2 and h3 to standard color and no shadow */
 
 #ksail-reasons h3 {
