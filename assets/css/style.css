@@ -206,6 +206,12 @@ footer {
 /* Media query: mobile phone (280px and up)  */
 
 @media screen and (min-width: 280px) {
+    /* On mobile phones, add the height of the footer to
+       the bottom of the page to allow for the sticky footer covering
+       content */
+    body{
+        padding-bottom: 60px;
+    }
 
     #hero-text>h2,
     #hero-text>h3 {
