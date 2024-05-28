@@ -202,8 +202,9 @@ hr {
 /* Style choice list items */
 #ksail-choices li {
     color: #ffffff;
-    list-style-type: none;
-    padding-bottom: 0.5rem;
+    list-style: outside;
+    margin-left: 1rem;
+    line-height: 1.5rem;
 }
 
 /* ksail reasons reset h2 and h3 to standard color and no shadow */
