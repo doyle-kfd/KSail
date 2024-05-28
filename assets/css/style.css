@@ -143,12 +143,35 @@ h3 {
 }
 
 
-/* Style ksail reasons section */
+/* Style ksail reasons div*/
 #ksail-reasons {
     width: 90%;
-    margin: 20px auto;
+    margin: 20px auto; /* Space top and bottom and center */
 }
 
+/* Style #ksail-reasons h2 text */
+#ksail-reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+/* Give decendant divs line height and bottom margin */
+#ksail-benefits > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+/* Give decendant paragraph text padding */
+#ksail-benefits p {
+    padding: 0 20px;
+}
+
+/* Style the hr break */
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
 
 /* ksail options styling background image with color overlay*/
 #ksail-choices {
