@@ -159,9 +159,11 @@ h3 {
 
 /* Give decendant divs line height and bottom margin */
 #ksail-benefits-section1>div,
-#ksail-benefits-section2 {
+#ksail-benefits-section2>div {
     line-height: 20px;
     margin-bottom: 20px;
+    /* fix for uneven content div heights in flexbox */
+    max-height: 100px;
 }
 
 /* Give decendant paragraph text padding */
@@ -410,6 +412,8 @@ footer {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+
+    /* add padding to divs to separate */
     #ksail-benefits-section1  > div {
         padding: 1rem;
     }
