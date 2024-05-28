@@ -146,7 +146,8 @@ h3 {
 /* Style ksail reasons div*/
 #ksail-reasons {
     width: 90%;
-    margin: 20px auto; /* Space top and bottom and center */
+    margin: 20px auto;
+    /* Space top and bottom and center */
 }
 
 /* Style #ksail-reasons h2 text */
@@ -157,14 +158,16 @@ h3 {
 }
 
 /* Give decendant divs line height and bottom margin */
-#ksail-benefits > div {
+#ksail-benefits-section1>div,
+#ksail-benefits-section2 {
     line-height: 20px;
     margin-bottom: 20px;
 }
 
 /* Give decendant paragraph text padding */
-#ksail-benefits p {
-    padding: 0 20px;
+#ksail-benefits-section1 p,
+#ksail-benefits-section2 p {
+    padding: 5px 20px;
 }
 
 /* Style the hr break */
@@ -172,6 +175,11 @@ hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
+
+
+
+
+
 
 /* ksail options styling background image with color overlay*/
 #ksail-choices {
@@ -366,6 +374,23 @@ footer {
     #ksail-text {
         width: 300px;
         right: 30px;
+    }
+
+    /* added responsive design on larger screens to use up space */
+    #ksail-benefits-section1,
+    #ksail-benefits-section2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #ksail-benefits-section1 > div,
+    #ksail-benefits-section2 > div {
+        width: 60%;
+    }
+    #ksail-benefits-section2 >div {
+        text-align: end;
+        align-self: flex-end;
     }
 
 }
