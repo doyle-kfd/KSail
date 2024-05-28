@@ -378,20 +378,28 @@ footer {
     }
 
     /* added responsive design on larger screens to use up space */
-    #ksail-benefits-section1,
-    #ksail-benefits-section2 {
+    /* Set flexbox on container */
+    #ksail-benefits {
         display: flex;
-        flex-direction: column;
-        width: 100%;
+        flex-direction: row;
     }
 
-    #ksail-benefits-section1 > div,
-    #ksail-benefits-section2 > div {
-        width: 60%;
+    /* Allow benefit divs take as much space as possible */
+    #ksail-benefits > div {
+        flex: 1;
     }
-    #ksail-benefits-section2 >div {
-        text-align: end;
+
+    /* section 1 div's align at start of flex box, in this case left */
+    #ksail-benefits-section1  > div {
+        align-self: flex-start;
+        padding: 1rem;
+    }
+
+
+    /* section 2 div's align at end of flex box, in this case right */
+    #ksail-benefits-section2 > div {
         align-self: flex-end;
+        padding: 1rem;
     }
 
 }
@@ -402,4 +410,12 @@ footer {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+    #ksail-benefits-section1  > div {
+        padding: 1rem;
+    }
+
+    #ksail-benefits-section2 > div {
+        padding: 1rem;
+    }
+
 }
