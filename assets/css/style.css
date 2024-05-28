@@ -124,7 +124,7 @@ main {
     padding-left: 10px;
 }
 
-/* Styling h2 and h3 text */
+/* hero styling h2 and h3 text */
 #hero-text h2,
 h3 {
     font-size: 120%;
@@ -135,7 +135,7 @@ h3 {
     /* Added to capatilise first letter in each h2 and h3 word */
 }
 
-/* Styling h2 specific text */
+/* hero styling h2 specific text */
 #hero-text>h2 {
     padding-bottom: 10px;
     font-size: 140%;
@@ -169,11 +169,12 @@ h3 {
 }
 
 /* Style choice list items */
-#ksail-choices  li {
+#ksail-choices li {
     color: #ffffff;
-    list-style-type:  none;
+    list-style-type: none;
     padding-bottom: 0.5rem;
 }
+
 /* ksail reasons reset h2 and h3 to standard color and no shadow */
 
 #ksail-reasons h3 {
@@ -181,8 +182,45 @@ h3 {
     text-shadow: none;
 }
 
+/* Ksail Sailing Options Css */
+#ksail-section {
+    height: 500px;
+    width: 100%;
+    background: url("../images/KSail-get-going.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+/* Ksail Section Styling to break content */
+#ksail-text {
+    background-color: RGBA(183, 15, 38, 0.60);
+    /* Opacity on bg color for effect */
+    position: absolute;
+    /* Position hero text box on screen */
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
 
 
+/* ksail styling h2 and h3 text */
+#ksail-text h2,
+h3 {
+    font-size: 120%;
+    color: #ffffff;
+    /* text shadow to make heading pop on the opaqye bg */
+    text-shadow: 1px 1px 1px #3A3A3A;
+    text-transform: capitalize;
+    /* Added to capatilise first letter in each h2 and h3 word */
+}
+
+/* ksail styling h2 specific text */
+#ksail-text>h2 {
+    padding-bottom: 10px;
+    font-size: 140%;
+
+}
 
 /* Footer */
 footer {
@@ -206,10 +244,11 @@ footer {
 /* Media query: mobile phone (280px and up)  */
 
 @media screen and (min-width: 280px) {
+
     /* On mobile phones, add the height of the footer to
        the bottom of the page to allow for the sticky footer covering
        content */
-    body{
+    body {
         padding-bottom: 60px;
     }
 
@@ -251,7 +290,7 @@ footer {
 }
 
 
-/* Media query: tablets and larger (760px and up) */
+/* Media query: tablets and larger (768px and up) */
 
 @media screen and (min-width: 768px) {
 
@@ -297,6 +336,11 @@ footer {
     }
 
     #hero-text {
+        width: 300px;
+        right: 30px;
+    }
+
+    #ksail-text {
         width: 300px;
         right: 30px;
     }
