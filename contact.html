@@ -28,7 +28,7 @@
         <label for="toggle-nav" class="toggle-nav-label"><i class="fa-solid fa-bars"></i></label>
         <nav>
             <ul id="menu">
-                <li><a href="index.html" >Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="contact.html" class="active">Contact</a></li>
@@ -38,7 +38,38 @@
 
     <!-- Main -->
     <main>
- 
+        <section id="ksail-enquiry">
+            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+            <h2><i class="fa-solid fa-sailboat"></i> Fill out your KSail enquiry!</h2>
+            <label for="first-name">First Name</label>
+            <input type="text" name="first_name" id="first-name" class="text-input" required>
+            <br>
+            <label for="last-name">Last Name</label>
+            <input type="text" name="last_name" id="last-name" class="text-input" required>
+            <br>
+            <label for="email-address">Email:</label>
+            <input type="email" name="email_address" id="email-address" class="text-input" required>
+            <br>
+            <label for="telephone">Tel:</label>
+            <input type="tel" name="telephone" id="telephone" class="text-input" required>
+            <br>
+            <div class="ksail-select">
+                <div>
+                    <label for="taster">KSail Taster</label>
+                    <input type="radio" name="ksail-preference" id="taster" value="Ksail Taster" required checked>
+                </div>
+                <div>
+                    <label for="starter">KSail Starter</label>
+                    <input type="radio" name="ksail-preference" id="starter" value="Ksail Starter" required checked>
+                </div>
+                <div>
+                    <label for="improver">KSail Improver</label>
+                    <input type="radio" name="ksail-preference" id="improver" value="Ksail Improver" required checked>
+                </div>
+            </div>
+            <button type="submit" class="enquiry">Please Contact Me!</button>
+        </form>
+        </section>
     </main>
 
     <!-- Footer -->
