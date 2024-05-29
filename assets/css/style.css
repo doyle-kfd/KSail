@@ -415,6 +415,12 @@ footer {
         padding: 1rem;
     }
 
+    /* Gallery images two columns for better experience */
+    #ksail-photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+
 }
 
 /* Media query: laptops and larger (992px and up) */
@@ -431,6 +437,12 @@ footer {
 
     #ksail-benefits-section2 > div {
         padding: 1rem;
+    }
+
+    /*  Gallery images 4 columns */
+    #ksail-photos {
+        column-count: 4;
+        column-gap: 0;
     }
 
 }
