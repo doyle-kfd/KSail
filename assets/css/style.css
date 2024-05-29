@@ -100,7 +100,9 @@ main {
     /* Make main element take up all availavle space, pushing footer to the bottom */
     flex: 1 0 auto;
     /* use flex - grow - automatically take up all the space  */
-    margin-top: 40px;
+    margin-top: 48px;
+    display: flex; /* Enable flex */
+    flex-direction: column; 
 }
 
 /* Hero Section */
@@ -266,6 +268,63 @@ img {
 #ksail-photos {
     line-height: 0px; /* Remove white space between images in gallery */
 }
+
+
+
+/* Ksail Contact Page */
+
+/* Add a background image to the Contact form page */
+#ksail-enquiry {
+    background-image: url('../images/KSail-enquiry.jpg');
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+/* Give the contact form a dark bg for contrast and transparency */
+#ksail-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+/* Form header pop */
+#ksail-form > h2 {
+    color: #ffffff;
+    font-size: 0.9rem;margin-bottom: 10px;
+}
+
+/* Format input fields */
+.text-input, .tel-input {
+    background: transparent;
+    color: #fafafa; 
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;   
+    padding: 0 5px;
+}
+
+/* Form enquiry items Taste, Start, Improver */
+.ksail-select {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style Submit Button */
+.enquiry {
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #b70f26;
+    color: #fafafa;
+}
+
+
 
 /* Footer */
 footer {

@@ -39,8 +39,9 @@
     <!-- Main -->
     <main>
         <section id="ksail-enquiry">
-            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
-            <h2><i class="fa-solid fa-sailboat"></i> Fill out your KSail enquiry!</h2>
+            <form id="ksail-form" method="POST" action="https://formdump.codeinstitute.net">
+            <h2><i class="fa-solid fa-sailboat"></i>KSail enquiry</h2>
+            <hr>
             <label for="first-name">First Name</label>
             <input type="text" name="first_name" id="first-name" class="text-input" required>
             <br>
@@ -51,22 +52,24 @@
             <input type="email" name="email_address" id="email-address" class="text-input" required>
             <br>
             <label for="telephone">Tel:</label>
-            <input type="tel" name="telephone" id="telephone" class="text-input" required>
+            <input type="tel" name="telephone" id="telephone" class="tel-input" required>
             <br>
+            <hr>
             <div class="ksail-select">
                 <div>
-                    <label for="taster">KSail Taster</label>
+                    <label for="taster">Ta</label>
                     <input type="radio" name="ksail-preference" id="taster" value="Ksail Taster" required checked>
                 </div>
                 <div>
-                    <label for="starter">KSail Starter</label>
+                    <label for="starter">St</label>
                     <input type="radio" name="ksail-preference" id="starter" value="Ksail Starter" required checked>
                 </div>
                 <div>
-                    <label for="improver">KSail Improver</label>
+                    <label for="improver">Im</label>
                     <input type="radio" name="ksail-preference" id="improver" value="Ksail Improver" required checked>
                 </div>
             </div>
+            <hr>
             <button type="submit" class="enquiry">Please Contact Me!</button>
         </form>
         </section>
