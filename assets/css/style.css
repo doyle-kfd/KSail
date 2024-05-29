@@ -256,6 +256,17 @@ h3 {
 
 }
 
+
+/* KSail Gallery Page */
+img {
+    width: 100%; /* Make images fit width of device screen */
+    line-height: 1em; /* If image path breaks, alt text should be visible  */
+}
+
+#ksail-photos {
+    line-height: 0px; /* Remove white space between images in gallery */
+}
+
 /* Footer */
 footer {
     background-color: #b70f26;
