@@ -101,8 +101,9 @@ main {
     flex: 1 0 auto;
     /* use flex - grow - automatically take up all the space  */
     margin-top: 48px;
-    display: flex; /* Enable flex */
-    flex-direction: column; 
+    display: flex;
+    /* Enable flex */
+    flex-direction: column;
 }
 
 /* Hero Section */
@@ -261,12 +262,15 @@ h3 {
 
 /* KSail Gallery Page */
 img {
-    width: 100%; /* Make images fit width of device screen */
-    line-height: 1em; /* If image path breaks, alt text should be visible  */
+    width: 100%;
+    /* Make images fit width of device screen */
+    line-height: 1em;
+    /* If image path breaks, alt text should be visible  */
 }
 
 #ksail-photos {
-    line-height: 0px; /* Remove white space between images in gallery */
+    line-height: 0px;
+    /* Remove white space between images in gallery */
 }
 
 
@@ -290,20 +294,22 @@ img {
 }
 
 /* Form header pop */
-#ksail-form > h2 {
+#ksail-form>h2 {
     color: #ffffff;
-    font-size: 0.9rem;margin-bottom: 10px;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
 }
 
 /* Format input fields */
-.text-input, .tel-input {
+.text-input,
+.tel-input {
     background: transparent;
-    color: #fafafa; 
+    color: #fafafa;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
-    border-radius: 2px;   
+    border-radius: 2px;
     padding: 0 5px;
 }
 
@@ -457,19 +463,19 @@ footer {
     }
 
     /* Allow benefit divs take as much space as possible */
-    #ksail-benefits > div {
+    #ksail-benefits>div {
         flex: 1;
     }
 
     /* section 1 div's align at start of flex box, in this case left */
-    #ksail-benefits-section1  > div {
+    #ksail-benefits-section1>div {
         align-self: flex-start;
         padding: 1rem;
     }
 
 
     /* section 2 div's align at end of flex box, in this case right */
-    #ksail-benefits-section2 > div {
+    #ksail-benefits-section2>div {
         align-self: flex-end;
         padding: 1rem;
     }
@@ -478,6 +484,24 @@ footer {
     #ksail-photos {
         column-count: 2;
         column-gap: 0;
+    }
+
+    /* Contact form styling */
+    #ksail-enquiry {
+        background-position: center;
+        position: relative;
+    }
+
+    /* Position contact form exactly where I want it on page */
+    #ksail-form {
+        max-width: 400px;
+        /* Set a width */
+        position: absolute;
+        /* Move it outside the normal document */
+        left: 10%;
+        /* Position it from the left */
+        top: 200px;
+        /* Position it from the top */
     }
 
 }
@@ -490,11 +514,11 @@ footer {
     }
 
     /* add padding to divs to separate */
-    #ksail-benefits-section1  > div {
+    #ksail-benefits-section1>div {
         padding: 1rem;
     }
 
-    #ksail-benefits-section2 > div {
+    #ksail-benefits-section2>div {
         padding: 1rem;
     }
 
@@ -502,6 +526,18 @@ footer {
     #ksail-photos {
         column-count: 4;
         column-gap: 0;
+    }
+
+    /* Position contact form exactly where I want it on page */
+    #ksail-form {
+        max-width: 400px;
+        /* Set a width */
+        position: absolute;
+        /* Move it outside the normal document */
+        left: 15%;
+        /* Position it from the left */
+        top: 250px;
+        /* Position it from the top */
     }
 
 }
