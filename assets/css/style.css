@@ -156,17 +156,46 @@ h3 {
     position: relative;
 }
 
+#ksail-club-offerings {
+    background: url('../images/learning-to-sail.jpg') no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Give div in club offering section darker background to stand */
+#ksail-club-offerings div {
+    background-color: #003366a6;
+    padding: 10px;
+    /* will not wrap on screens of 400px or less
+       Each div will expand to fill the spave available on the row. */
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid #ffffff;
+}
 
 
+/* About us page section break  */
+
+#about-section-break {
+        /* Space top and bottom and center */
+        margin: 20px auto;
+}
+
+#about-section-break h2 {
+    text-align: center;
+    color: #003366;
+}
 
 
+/* Clubs */
 
 
 /* Style ksail reasons div*/
 #ksail-reasons {
     width: 90%;
-    margin: 20px auto;
     /* Space top and bottom and center */
+    margin: 20px auto;
+   
 }
 
 /* Style #ksail-reasons h2 text */
@@ -202,7 +231,7 @@ hr {
 
 
 
-/* ksail options styling background image with color overlay*/
+/* ksail choices styling background image with color overlay*/
 #ksail-choices {
     background: url('../images/learning-to-sail.jpg') no-repeat center/cover;
     display: flex;
