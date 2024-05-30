@@ -158,6 +158,8 @@ h3 {
 
 #ksail-club-offerings {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     background: url("../images/KSail-sailing-club.jpg") no-repeat center center/cover;
 }
@@ -166,10 +168,9 @@ h3 {
 /* Give div in club offering section darker background to stand */
 #ksail-club-offerings > div {
     background-color: #003366cf;
-    padding: 10px;
-    height: 200px;
+    min-height: 200px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 2rem;
     /* will not wrap on screens of 400px or less
        Each div will expand to fill the spave available on the row. */
     flex-basis: 200px;
