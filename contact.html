@@ -38,40 +38,66 @@
 
     <!-- Main -->
     <main>
-        <section id="ksail-enquiry">
-            <form id="ksail-form" method="POST" action="https://formdump.codeinstitute.net">
-            <h2><i class="fa-solid fa-sailboat"></i>KSail enquiry</h2>
-            <hr>
-            <label for="first-name">First Name</label>
-            <input type="text" name="first_name" id="first-name" class="text-input" required>
-            <br>
-            <label for="last-name">Last Name</label>
-            <input type="text" name="last_name" id="last-name" class="text-input" required>
-            <br>
-            <label for="email-address">Email:</label>
-            <input type="email" name="email_address" id="email-address" class="text-input" required>
-            <br>
-            <label for="telephone">Tel:</label>
-            <input type="tel" name="telephone" id="telephone" class="tel-input" required>
-            <br>
-            <hr>
-            <div class="ksail-select">
-                <div>
-                    <label for="taster">Taster</label>
-                    <input type="radio" name="ksail-preference" id="taster" value="Ksail Taster" required checked>
+        <section id="ksail-enquiry-container">
+            <div id="ksail-enquiry">
+                <div id="contact-form">
+                    <form id="ksail-form" method="POST" action="https://formdump.codeinstitute.net">
+                        <h2><i class="fa-solid fa-sailboat"></i> KSail enquiry</h2>
+                        <hr>
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first_name" id="first-name" class="text-input" required>
+                        <br>
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last_name" id="last-name" class="text-input" required>
+                        <br>
+                        <label for="email-address">Email:</label>
+                        <input type="email" name="email_address" id="email-address" class="text-input" required>
+                        <br>
+                        <label for="telephone">Tel:</label>
+                        <input type="tel" name="telephone" id="telephone" class="tel-input" required>
+                        <br>
+                        <hr>
+                        <div class="ksail-select">
+                            <div>
+                                <label for="taster">Taster</label>
+                                <input type="radio" name="ksail-preference" id="taster" value="Ksail Taster" required
+                                    checked>
+                            </div>
+                            <div>
+                                <label for="starter">Starter</label>
+                                <input type="radio" name="ksail-preference" id="starter" value="Ksail Starter" required
+                                    checked>
+                            </div>
+                            <div>
+                                <label for="improver">Improver</label>
+                                <input type="radio" name="ksail-preference" id="improver" value="Ksail Improver"
+                                    required checked>
+                            </div>
+                        </div>
+                        <hr>
+                        <button type="submit" class="enquiry">Please Contact Me!</button>
+                    </form>
                 </div>
-                <div>
-                    <label for="starter">Starter</label>
-                    <input type="radio" name="ksail-preference" id="starter" value="Ksail Starter" required checked>
+                <div id="ksail-address">
+                    <h3>Royal St. George Yacht Club</h3>
+                    <hr>
+                    <ul>
+                        <li>Harbour Rd</li>
+                        <li>Dún Laoghaire</li>
+                        <li>Co. Dublin</li>
+                        <li>A96 AY77</li>
+                        <li>Tel: 01 280 1811</li>
+                    </ul>
                 </div>
-                <div>
-                    <label for="improver">Improver</label>
-                    <input type="radio" name="ksail-preference" id="improver" value="Ksail Improver" required checked>
-                </div>
+        </section>
+        <section>
+            <div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d76311.21150158625!2d-6.2150130156805075!3d53.294454607091964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x48670623173afb1f%3A0x326d533913056a98!2sHarbour%20Rd%2C%20D%C3%BAn%20Laoghaire%2C%20Dun%20Laoghaire%2C%20Co.%20Dublin!3m2!1d53.294444999999996!2d-6.1326564999999995!5e0!3m2!1sen!2sie!4v1717146618091!5m2!1sen!2sie"
+                    width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <hr>
-            <button type="submit" class="enquiry">Please Contact Me!</button>
-        </form>
+        </section>
         </section>
     </main>
 

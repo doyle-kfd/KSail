@@ -156,6 +156,19 @@ h3 {
     position: relative;
 }
 
+
+/* Ksail resons styling */
+#about-intro h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#about-intro h3 {
+    color: #003366;
+    text-shadow: none;
+    text-align: center;
+}
+
 #ksail-club-offerings {
     display: flex;
     justify-content: center;
@@ -166,7 +179,7 @@ h3 {
 
 
 /* Give div in club offering section darker background to stand */
-#ksail-club-offerings > div {
+#ksail-club-offerings>div {
     background-color: #003366cf;
     min-height: 200px;
     text-align: center;
@@ -183,8 +196,8 @@ h3 {
 /* About us page section break  */
 
 #about-section-break {
-        /* Space top and bottom and center */
-        margin: 20px auto;
+    /* Space top and bottom and center */
+    margin: 20px auto;
 }
 
 #about-section-break h2 {
@@ -219,12 +232,12 @@ h3 {
     text-shadow: 1px 1px 1px #3A3A3A;
 }
 
-#dining  {
+#dining {
     background: url('../images/Dining.jpg') no-repeat center/cover;
     flex-grow: 1;
 }
 
-#fit  {
+#fit {
     background: url('../images/fitness.jpg') no-repeat center/cover;
     flex-grow: 1;
 }
@@ -234,12 +247,12 @@ h3 {
     flex-grow: 1;
 }
 
-#bridge  {
+#bridge {
     background: url('../images/Bridge.jpg') no-repeat center/cover;
     flex-grow: 1;
 }
 
-#art  {
+#art {
     background: url('../images/Art-class.jpg') no-repeat center/cover;
     flex-grow: 1;
 }
@@ -251,7 +264,7 @@ h3 {
     width: 90%;
     /* Space top and bottom and center */
     margin: 20px auto;
-   
+
 }
 
 /* Style #ksail-reasons h2 text */
@@ -378,19 +391,36 @@ img {
 
 /* Ksail Contact Page */
 
+
+/* Style background container on contact page*/
+
+
+#ksail-enquiry-container {
+    width: 100%;
+    background: url("../images/KSail-enquiry.jpg") no-repeat center center/cover;
+    position: relative;
+
+
+}
 /* Add a background image to the Contact form page */
 #ksail-enquiry {
-    background-image: url('../images/KSail-enquiry.jpg');
-    background-size: cover;
-    background-position: 75%;
-    padding: 20px 10% 0 10%;
+    background-color: rgba(60, 60, 60, 0.7);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    flex-basis: 200px;
+}
+
+#ksail-enquiry>div {
     flex-grow: 1;
+
 }
 
 /* Give the contact form a dark bg for contrast and transparency */
-#ksail-form {
+#contact-form {
     color: #ffffff;
-    background-color: rgba(60, 60, 60, 0.7);
+    /* Comment out for testing  background-color: rgba(60, 60, 60, 0.7); */
     padding: 30px;
 }
 
@@ -415,6 +445,7 @@ img {
 }
 
 /* Form enquiry items Taste, Start, Improver */
+
 .ksail-select {
     width: 100%;
     display: flex;
@@ -431,6 +462,23 @@ img {
     color: #fafafa;
 }
 
+#ksail-address {
+    /* Comment out for testing background-color: rgba(60, 60, 60, 0.7); */
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+#ksail-address h3 {
+    font-size: 1rem;
+}
+
+#ksail-address li {
+    font-size: 1rem;
+    font-weight:700;
+    color: #ffffff;
+    list-style: none;
+    padding: 5px;
+}
 
 
 /* Footer */
@@ -587,23 +635,32 @@ footer {
         column-gap: 0;
     }
 
-    /* Contact form styling */
-    #ksail-enquiry {
-        background-position: center;
-        position: relative;
+    /* Ksail enquiry container styling */
+    #ksail-enquiry-container {
+        padding-top: 10vh;
+        height: 65vh;
     }
 
-    /* Position contact form exactly where I want it on page */
-    #ksail-form {
-        max-width: 400px;
-        /* Set a width */
-        position: absolute;
-        /* Move it outside the normal document */
-        left: 10%;
-        /* Position it from the left */
-        top: 200px;
-        /* Position it from the top */
+    /* Contact form styling */
+    #ksail-enquiry {
+        width: 80%;
+        margin: 0 auto;
+        background-position: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: center;
+
     }
+
+    #ksail-enquiry > div {
+        padding-top: 40px;
+        flex-grow: 1;
+        flex-basis: 200px;
+        max-width: 45%;
+
+    };
+    
 
 }
 
@@ -630,15 +687,15 @@ footer {
     }
 
     /* Position contact form exactly where I want it on page */
+
+
     #ksail-form {
         max-width: 400px;
-        /* Set a width */
-        position: absolute;
+        Set a width */ position: absolute;
         /* Move it outside the normal document */
         left: 15%;
-        /* Position it from the left */
-        top: 250px;
-        /* Position it from the top */
+        Position it from the left */ top: 250px;
+        /*Position it from the top */
     }
 
 }
