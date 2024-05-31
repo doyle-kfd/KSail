@@ -480,6 +480,10 @@ img {
     padding: 5px;
 }
 
+#map-wrap {
+    height: 300px;
+    width: 100%;
+}
 
 /* Footer */
 footer {
