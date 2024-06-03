@@ -111,7 +111,7 @@ main {
 #hero-section {
     height: 500px;
     width: 100%;
-    background: url("../images/hero-image-learn-to-sail.jpg") no-repeat center center/cover;
+    background: url("../images/hero-image-learn-to-sail.webp") no-repeat center center/cover;
     position: relative;
 }
 
@@ -167,7 +167,7 @@ iframe {
 #about-hero-section {
     height: 500px;
     width: 100%;
-    background: url("../images/KSail-sailing-club.jpg") no-repeat center center/cover;
+    background: url("../images/ksail-sailing-club.webp") no-repeat center center/cover;
     position: relative;
 }
 
@@ -189,7 +189,7 @@ iframe {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background: url("../images/KSail-sailing-club.jpg") no-repeat center center/cover;
+    background: url("../images/ksail-sailing-club.webp") no-repeat center center/cover;
 }
 
 
@@ -248,27 +248,27 @@ iframe {
 }
 
 #dining {
-    background: url('../images/Dining.jpg') no-repeat center/cover;
+    background: url('../images/dining.webp') no-repeat center/cover;
     flex-grow: 1;
 }
 
 #fit {
-    background: url('../images/fitness.jpg') no-repeat center/cover;
+    background: url('../images/fitness.webp') no-repeat center/cover;
     flex-grow: 1;
 }
 
 #snooker {
-    background: url('../images/Snooker.jpg') no-repeat center/cover;
+    background: url('../images/snooker.webp') no-repeat center/cover;
     flex-grow: 1;
 }
 
 #bridge {
-    background: url('../images/Bridge.jpg') no-repeat center/cover;
+    background: url('../images/bridge.webp') no-repeat center/cover;
     flex-grow: 1;
 }
 
 #art {
-    background: url('../images/Art-class.jpg') no-repeat center/cover;
+    background: url('../images/art-class.webp') no-repeat center/cover;
     flex-grow: 1;
 }
 
@@ -317,7 +317,7 @@ hr {
 
 /* ksail choices styling background image with color overlay*/
 #ksail-choices {
-    background: url('../images/learning-to-sail.jpg') no-repeat center/cover;
+    background: url('../images/learning-to-sail.webp') no-repeat center/cover;
     display: flex;
     flex-wrap: wrap;
 }
@@ -352,7 +352,7 @@ hr {
 #ksail-section {
     height: 500px;
     width: 100%;
-    background: url("../images/KSail-get-going.jpg") no-repeat center center/cover;
+    background: url("../images/ksail-get-going.webp") no-repeat center center/cover;
     position: relative;
 }
 
@@ -413,7 +413,7 @@ img {
 
 #ksail-enquiry-container {
     width: 100%;
-    background: url("../images/KSail-enquiry.jpg") no-repeat center center/cover;
+    background: url("../images/ksail-enquiry.webp") no-repeat center center/cover;
     position: relative;
 
 
