@@ -567,6 +567,13 @@ footer {
         padding-bottom: 1.25rem;
     }
 
+    
+    #ksail-gallery > h2 {
+        text-align:center;
+        font-size: 1rem;
+        padding: 10px 0;
+    }
+
 }
 
 
@@ -692,6 +699,15 @@ footer {
     #about-intro h3 {
         font-size: 1.5rem;
 
+    }
+
+    #ksail-gallery {
+        padding-top:50px;
+    }
+
+    #ksail-gallery > h2 {
+        font-size: 1.5rem;
+        padding: 20px 0;
     }
 
 
