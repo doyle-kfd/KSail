@@ -60,6 +60,7 @@ header a {
 
 #menu>li {
     margin-bottom: 1em;
+    font-weight: 700;
 }
 
 .active {
@@ -604,6 +605,7 @@ footer {
         padding-left: 1rem;
         /* Add padding between meny items */
         font-size: 1.5rem;
+        /* font-weight: 700; */
     }
 
     .toggle-nav-label {
