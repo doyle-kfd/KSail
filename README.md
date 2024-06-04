@@ -137,11 +137,17 @@ The fonts used are from Google's library
 
 ### Index
 
+- #### Note:
+    - The index page has been designed with the visitors first impression in mind.
+    - The page is focused on selling the experience, from whats in it for you to what we provide.
+    - The imagery and text is based on the targeted demographic in the personas.
+
 - ####  Hero Section 
 
     - The hero image with text sets the scene for the site visitors first experience.
     - The image is one from the type of sailing boat they will use on the course.
     - The image and the text provides a clear expectation of what the visitor will experience.
+    - The text with the opque background have both  been given a drop shadow to make them stand out for contrast purposes.
 ![Index Page Hero Image](docs/readme_images/index-hero.png)
 
 - #### Reasons Section
@@ -154,17 +160,41 @@ The fonts used are from Google's library
     - The KSail hero image is the introduction section to the page. The visitor has seen at the top they are in the right place. The benefits have been explained, now I introduce the courses.
     - The KSail hero image shows the type of sailboats the visitor would be on.
     - The KSail hero image shows the type of people I am targeting.
+    - The text has been given a drop shadow on an opqaue background which has a drop shadow in order to give it a contrast.
 ![Index Page KSail Image](docs/readme_images/ksail-hero.png)
 
 - #### KSail Courses
     - The KSail courses are fully responsive
-    - The KSail courses detail exactly what they can expect from each course
+    - The KSail courses detail exactly what they can expect from each course.
     - The KSail courses show the progression possible from sampler to sailor to improver
-    - There is no disctraction with other unrelated courses or detail
+    - There is no disctraction with other unrelated courses or detail.
     - The courses are layered over a background image with an opaque color for text contrast.
+    - The titles have been given a drop shadow to help them stand out.
 ![Index Page KSail Courses](docs/readme_images/ksail-courses.png)
 
 ### About
+
+- #### Note:
+    - I consider the About page as a necessity but was not initially included as MVP.
+    - The page lends credibility to our courses by showing that we have offerings that would suit someone who is looking for more than a weekend of sailing.
+
+- #### About Hero Section
+    - The hero image and the supporting text is used to show that behind KSail there is a club and the clubs motto.
+    - The motto "No Boat No Problem" is used to give the site visitor the message that you dont need to own your own boat to sail.
+    - The club is always looking for suitable members and KSail is an opportunity to offer trainees the opportunity to sample club life.
+![About Page Hero section](docs/readme_images/ksail-about-hero.png)
+
+- #### Welcome to the club section
+    - The welcome section displays the club sailor offering. 
+    - The 5 sections detail what the club has to offer with a color overlay on a background image to give textual contrast.
+![About Page Welcome section](docs/readme_images/welcome-to-the-club.png)
+
+- #### Clubs within the club section
+    - This section details the depth within the sialing club. There are numerous options available if you are a member.
+    - The imagery used in this section is all selected to imply quality.
+    - The use of the age differences in the snooker image are chosen to show the age differences that members cover.
+    - The title in each section has been given an opaque background and a drop shadow to make the text stand out.
+![About Page Clubs section](docs/readme_images/clubs-within-the-club.png)
 
 ### Gallery
 
