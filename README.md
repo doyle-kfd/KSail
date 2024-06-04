@@ -282,17 +282,92 @@ Content for the KSail website was based on the real life offerings from the RSGY
 
 ### Images
 - [Unsplash](https://unsplash.com/photos/)
-    - Index page hero image
+    - Index page:
+        - hero image
 
 - [Freepik](https://www.freepik.com/free-photos-vectors/sailing)
-    - Welcome to KSail hero image
-    - KSail course options background
+    - Index page:
+        - Welcome to KSail hero image
+        - KSail course options background
+
+- [Pexels](https://www.pexels.com/)
+    - About us page:
+        - Snooker
+        - Keep Fit
+        - Dining
+        - Bridge
+        - Art
+
+    - Gallery page:
+        - All sailing photos
+
+    
+    - Contact page:
+        - Enquiry hero image
+
 
 
 
 # Testing
 
 ## Feature Testing
+
+### Nav Bar
+
+| Feature    |   Test Case    |   Outcome      |
+|------------|----------------|----------------|
+| Logo       |  Click On Logo |  User brought to home page   |
+| Navbar - Home Page | Click on Home link on each page | User is brought to Home page |
+| Navbar - About Page | Click on About link on each page | User is brought to About page |
+| Navbar - Gallery Page | Click on Gallery link on each page | User is brought to Gallery page |
+| Navbar - Contact Page | Click on the Contact link on each page | User is brought to Contact page |
+| Navbar - Active Status | On each page, active status should show under page name | Bar under page name shows |
+
+### Footer
+
+| Feature    |   Test Case    |   Outcome      |
+|------------|----------------|----------------|
+| Footer - Index Page -  Facebook link | Click on footer Facebook link | New Tab opens with Facebook |
+| Footer - Index Page -  Instagram link | Click on footer Instagram  link | New Tab opens with Instagram |
+| Footer - Index Page -  YouTube link | Click on footer Youtube link | New Tab opens with Youtube |
+| Footer - Index Page -  WhatsApp link | Click on footer WhatsApp link | New Tab opens with WhatsApp |
+| Footer - Index Page -  Telephone link | Click on footer Telephone link | On Mobile Phone, Phone dialer with phone number ready |
+| Footer - Index Page -  Telephone link | Click on footer Telephone link | On Tablet or Laptop, Popup with pick an app message |
+| Footer - About Page -  Facebook link | Click on footer Facebook link | New Tab opens with Facebook |
+| Footer - About Page -  Facebook link | Click on footer Facebook link | New Tab opens with Facebook |
+| Footer - About Page -  Instagram link | Click on footer Instagram  link | New Tab opens with Instagram |
+| Footer - About Page -  YouTube link | Click on footer Youtube link | New Tab opens with Youtube |
+| Footer - About Page -  WhatsApp link | Click on footer WhatsApp link | New Tab opens with WhatsApp |
+| Footer - About Page -  Telephone link | Click on footer Telephone link | On Mobile Phone, Phone dialer with phone number ready |
+| Footer - About Page -  Telephone link | Click on footer Telephone link | On Tablet or Laptop, Popup with pick an app message |
+| Footer - About Page -  Facebook link | Click on footer Facebook link | New Tab opens with Facebook |
+| Footer - Gallery Page -  Facebook link | Click on footer Facebook link | New Tab opens with Facebook |
+| Footer - Gallery Page -  Facebook link | Click on footer Facebook link | New Tab opens with Facebook |
+| Footer - Gallery Page -  Instagram link | Click on footer Instagram  link | New Tab opens with Instagram |
+| Footer - Gallery Page -  YouTube link | Click on footer Youtube link | New Tab opens with Youtube |
+| Footer - Gallery Page -  WhatsApp link | Click on footer WhatsApp link | New Tab opens with WhatsApp |
+| Footer - Gallery Page -  Telephone link | Click on footer Telephone link | On Mobile Phone, Phone dialer with phone number ready |
+| Footer - Gallery Page -  Telephone link | Click on footer Telephone link | On Tablet or Laptop, Popup with pick an app message |
+| Footer - Gallery Page -  Facebook link | Click on footer Facebook link | New Tab opens with Facebook |
+| Footer - Contact Page -  Facebook link | Click on footer Facebook link | New Tab opens with Facebook |
+| Footer - Contact Page -  Facebook link | Click on footer Facebook link | New Tab opens with Facebook |
+| Footer - Contact Page -  Instagram link | Click on footer Instagram  link | New Tab opens with Instagram |
+| Footer - Contact Page -  YouTube link | Click on footer Youtube link | New Tab opens with Youtube |
+| Footer - Contact Page -  WhatsApp link | Click on footer WhatsApp link | New Tab opens with WhatsApp |
+| Footer - Contact Page -  Telephone link | Click on footer Telephone link | On Mobile Phone, Phone dialer with phone number ready |
+| Footer - Contact Page -  Telephone link | Click on footer Telephone link | On Tablet or Laptop, Popup with pick an app message |
+| Footer - Contact Page -  Facebook link | Click on footer Facebook link | New Tab opens with Facebook |
+
+### Footer
+
+| Feature    |   Test Case    |   Outcome      |
+|------------|----------------|----------------|
+| Contact Form | Enter
+
+
+
+
+
 
 ## Browser Compatability
 
