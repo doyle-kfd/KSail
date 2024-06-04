@@ -314,6 +314,10 @@ Content for the KSail website was based on the real life offerings from the RSGY
 
 ### Nav Bar
 
+<details>
+
+<summary>Nav Bar Testing</summary>
+
 | Feature    |   Test Case    |   Outcome      |
 |------------|----------------|----------------|
 | Logo       |  Click On Logo |  User brought to home page   |
@@ -323,7 +327,13 @@ Content for the KSail website was based on the real life offerings from the RSGY
 | Navbar - Contact Page | Click on the Contact link on each page | User is brought to Contact page |
 | Navbar - Active Status | On each page, active status should show under page name | Bar under page name shows |
 
+</details>
+
 ### Footer
+
+<details>
+
+<summary>Footer Testing</summary>
 
 | Feature    |   Test Case    |   Outcome      |
 |------------|----------------|----------------|
@@ -358,11 +368,45 @@ Content for the KSail website was based on the real life offerings from the RSGY
 | Footer - Contact Page -  Telephone link | Click on footer Telephone link | On Tablet or Laptop, Popup with pick an app message |
 | Footer - Contact Page -  Facebook link | Click on footer Facebook link | New Tab opens with Facebook |
 
-### Footer
+</details>
+
+### Contact Form
+
+<details>
+
+<summary>Contact Form Testing</summary>
 
 | Feature    |   Test Case    |   Outcome      |
 |------------|----------------|----------------|
-| Contact Form | Enter
+| Contact Form | First name required - leave out first name | ! Please fill out this field |
+| Contact Form | Last name required - leave out last name | ! Please fill out this field |
+| Contact Form | Email required - leave out Email | ! Please fill out this field |
+| Contact Form | Telephone number not required - leave out  Telephone | No error |
+</details>
+
+<details>
+
+<summary>Contact Form Taster Ouput </summary>
+
+![Contact Form Taster Selected](docs/readme_images/ksail-contact-taster.png)
+
+</details>
+<details>
+
+<summary>Contact Form Starter Ouput </summary>
+
+![Contact Form Starter Selected](docs/readme_images/ksail-contact-starter.png)
+
+</details>
+
+<details>
+
+<summary>Contact Form IMprover Ouput </summary>
+
+![Contact Form Improver Selected](docs/readme_images/ksail-contact-improver.png)
+
+</details>
+
 
 
 
@@ -370,6 +414,13 @@ Content for the KSail website was based on the real life offerings from the RSGY
 
 
 ## Browser Compatability
+
+| Browser Tested    |   Intended Appearance   |   Intended Responsiveness     |
+|-------------------|-------------------------|-------------------------------|
+| Chrome            | Good                    | Good                          |
+| Firefox           | Good                    | Good                          |
+| Edge              | Good                    | Good                          |
+
 
 ## Responsiveness
 
