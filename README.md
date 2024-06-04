@@ -9,7 +9,7 @@ While the information on the site is not real, the methodology of providing a bu
 
 The link to the live KSail website is here: [KSail](https://doyle-kfd.github.io/KSail/)
 
-![KSail am i responsive image](../KSail/assets/docs/am-i-responsive.png)
+![KSail am i responsive image](docs/readme_images/am-i-responsive.png)
 
 ## The approach I took
 
@@ -75,6 +75,13 @@ The link to the live KSail website is here: [KSail](https://doyle-kfd.github.io/
 
 ![Proposed Solution](../KSail/assets/docs/pp1-proposed-solution.png)
 ![My proposed solution](../KSail/assets/docs/pp1-my-solutuion.png)
+
+</details>
+
+<details>
+<summary>I Will Deliver</summary>
+
+![What I Will Deliver](../KSail/assets/docs/pp1-we-will-deliver.png)
 
 </details>
 
