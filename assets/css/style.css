@@ -324,7 +324,7 @@ hr {
 
 /* Give div in choices section darker background to stand */
 #ksail-choices div {
-    background-color: #003366a6;
+    background-color: #003366cf;
     padding: 10px;
     /* will not wrap on screens of 400px or less
        Each div will expand to fill the spave available on the row. */
@@ -415,13 +415,11 @@ img {
     width: 100%;
     background: url("../images/ksail-enquiry.webp") no-repeat center center/cover;
     position: relative;
-
-
 }
 
 /* Add a background image to the Contact form page */
 #ksail-enquiry {
-    background-color: rgba(60, 60, 60, 0.7);
+    background-color: #003366c5;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
