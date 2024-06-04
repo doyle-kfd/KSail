@@ -401,7 +401,7 @@ Content for the KSail website was based on the real life offerings from the RSGY
 
 <details>
 
-<summary>Contact Form IMprover Ouput </summary>
+<summary>Contact Form Improver Ouput </summary>
 
 ![Contact Form Improver Selected](docs/readme_images/ksail-contact-improver.png)
 
@@ -423,14 +423,154 @@ Content for the KSail website was based on the real life offerings from the RSGY
 
 
 ## Responsiveness
+| Device Tested     |   Site Responsive >= 280px  |   Site Responsive >=768    |     Site Responsive >=1200  | Render As Expected |
+|-------------------|-----------------------------|----------------------------|-----------------------------|--------------------|
+| Galaxy Fold       |      Good                   |             N/A            |          N/A                |      Good          |
+| ipad              |       N/A                   |            Good            |          N/A                |      Good          |
+| Laptop            |       N/A                   |             N/A            |         Good                |      Good          |
+
+### Responsive Test Screenshots
+
+<details>
+<summary>Mobile Phone</summary>
+
+![Mobile Phone - Galaxy Fold -  280X653px](/docs/readme_images/galaxy-fold-280-653.png)
+
+</details>
+<details>
+<summary>Tablet</summary>
+
+![Tablet iPad 768X1024px](/docs/readme_images/ipad-768-1024.png)
+
+</details>
+
+<details>
+<summary>Laptop</summary>
+
+![Laptop 1200X979px](/docs/readme_images/laptop-1200-979.png)
+
+</details>
+
 
 ## Code Validation
+
+### Index page validation
+
+<details>
+
+<summary>index.html</summary>
+
+![Index](/docs/readme_images/index-validation.png)
+
+</details>
+
+### About page validation
+
+<details>
+
+<summary>about.html</summary>
+
+![About](/docs/readme_images/about-validation.png)
+
+</details>
+
+### Gallery page validation
+
+<details>
+<summary>gallery.html</summary>
+
+![gallery](/docs/readme_images/gallery-validation.png)
+
+</details>
+
+### Contact page validation
+
+<details>
+<summary>gallery.html</summary>
+
+![contact](/docs/readme_images/contact-validation.png)
+
+</details>
 
 
 ## Bugs
 
+- Adding favicon
+    - Bug: Favicon would not show
+    - Solution: change directory structure and add to link tag
+
+- Active status under active page title not working
+    - Bug: Active menu item not showing on menu bar
+    - Fix: changed bottom border in css
+
+       Before:
+       ```
+       #menu a:hover {
+           border-bottom: 1 solid #3a3a3a;
+       }
+      ```
+
+
+       After:
+       ```
+      #menu a:hover {
+          border-bottom: 1px solid #3a3a3a;
+        }
+      ```
+
+- Adding colour over background image
+    -Solution: [MDN]https://developer.mozilla.org/en-US/docs/Web/CSS/background-color
+
+
+- Form does not hold position during resizing in responsive mode
+
+    Before:
+
+      ```
+      #ksail-form {
+          max-width: 400px;
+          /* Move it outside the normal document */
+          position: absolute;
+         left: 15%;
+         /* position it from the top */
+         top: 250px;
+      }
+      ```
+
+    Solution: Remove position attribute.
+
 
 ## Lighthouse
+
+### Index.html
+
+
+| View Tested       |                                  Outcome of Audit                                           |
+|-------------------|---------------------------------------------------------------------------------------------|
+| Mobile            | <img src="docs/readme_images/index-lighthouse.png " alt="lighthouse mobile" height="150"/>  |     
+
+### Suggestions to get a higher performance score
+
+<details>
+
+<summary>Lighhouse suggestions</summary>
+
+
+<img src="docs/readme_images/index-lighthouse-suggestions.png " alt="lighthouse suggestions" height="300"/>
+
+</details>
+
+
+- Reducing unused CSS. Font awesome loads some extra heading content that could be removed.
+- Serving static content with efficient caching policy. This can be achieved by server side changes. TTL settings
+- Minification of CSS, removing white spaces.
+- Preconnecting to required origins could help. However we loaded fontawesome in the footer to prevent render blocking.
+- The LCP on the hero image of the page is effects the score. It could be loaded with a "link rel=preload" tag
+
+
+
+
+
 
 
 ## Accessibility
