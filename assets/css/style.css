@@ -520,7 +520,7 @@ footer {
 
 /* Media query: mobile phone (280px and up)  */
 
-@media screen and (min-width: 280px) {
+@media only screen and (min-width: 280px) {
 
     /* On mobile phones, add the height of the footer to
        the bottom of the page to allow for the sticky footer covering
@@ -586,7 +586,7 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 
     /* Header */
     nav {
