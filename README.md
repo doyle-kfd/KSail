@@ -133,6 +133,8 @@ The fonts used are from Google's library
 ### Footer
 - The footer is visible on each page and has links to Facebook, Instagram, YouTube, WhatsApp and a phone number. These links have been selected based on customer feedback. The idea of having a phone number and a WhatsApp icon on the footer is to allow the site visitor contact the sales team directly from the phone.
 - The drop shadow on the footer is in reverse of the header one. It give the aesthetically pleasing effect of a 3D experience.
+- The social icons open in a new tab to ensure the visitor stays on the KSail site.
+- The two direct call to action buttons, WhatsApp and phone icons will start a direct action with the KSail team.
 ![Footer](docs/readme_images/ksail-footer.png)
 
 ### Index
@@ -231,8 +233,10 @@ The fonts used are from Google's library
 
 
 
-## Items left to implement
+## Given the time, I would implement
 
+- eCommerce integration for direct payment
+- sales pages for each course
 
 ## Deployment
 
@@ -241,7 +245,6 @@ The fonts used are from Google's library
 
 ## Credits
 
-## What I would have added
 
 # Testing
 
