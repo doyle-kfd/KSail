@@ -239,11 +239,55 @@ The fonts used are from Google's library
 - sales pages for each course
 
 ## Deployment
+The project was deployed using GitHub pages. The steps to deploy using GitHub pages are:
+1. Go to the repository on GitHub.com
+2. Select 'Settings' near the top of the page.
+3. Select 'Pages' from the menu bar on the left of the page.
+4. Under 'Source' select the 'Branch' dropdown menu and select the main branch.
+5. Once selected, click the 'Save'.
+6. Deployment should be confirmed by a message on a green background saying "Your site is published at" followed by the web address. 
 
+Live site can be viewed here: [KSail](https://doyle-kfd.github.io/KSail/)
 
 ## Cloning
 
+To clone the KSail repository
+1. On GitHub.com, navigate to the main page of the repository.
+2. Above the list of files, click  Code.
+![Git Clone Repo](docs/readme_images/git-clone.png)
+3. Copy the URL for the repository.
+    -To clone the repository using HTTPS, under "HTTPS", copy the url.
+
+![Git Clone Repo Url Copy](docs/readme_images/git-clone-copy.png)
+
+4. Open Git Bash.
+
+5. Change the current working directory to the location where you want the cloned directory.
+
+6. Type git clone, and then paste the URL you copied earlier.
+
+``
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+``
+
+7. ress Enter to create your local clone.
+
 ## Credits
+
+### Content
+
+Content for the KSail website was based on the real life offerings from the RSGYC.
+
+[Royal St. George Yacht Club](https://www.rsgyc.ie/training-3/usail/)
+
+### Images
+- [Unsplash](https://unsplash.com/photos/)
+    - Index page hero image
+
+- [Freepik](https://www.freepik.com/free-photos-vectors/sailing)
+    - Welcome to KSail hero image
+    - KSail course options background
+
 
 
 # Testing
