@@ -16,31 +16,31 @@ The link to the live KSail website is here: [KSail](https://doyle-kfd.github.io/
 <details>
 <summary>Intro</summary>
 
-![PP1 Intro](../KSail/assets/docs/pp1-intro.png)
+![PP1 Intro](docs/readme_images/pp1-intro.png)
 
 </details>
 <details>
 <summary>Agenda</summary>
 
-![Agenda for kickoff](../KSail/assets/docs/pp1-agenda.png)
+![Agenda for kickoff](docs/readme_images/pp1-agenda.png)
 
 </details>
 <details>
 <summary>Project Introduction</summary>
 
-![General Introduction](../KSail/assets/docs/pp1-general-introduction.png)
+![General Introduction](docs/readme_images/pp1-general-introduction.png)
 
 </details>
 <details>
 <summary>What Problem I Solve</summary>
 
-![Problem I Solve](../KSail/assets/docs/pp1-the-problem.png)
+![Problem I Solve](docs/readme_images/pp1-the-problem.png)
 
 </details>
 <details>
 <summary>Target Audience</summary>
 
-![Our Target Audience](../KSail/assets/docs/pp1-the-problem.png)
+![Our Target Audience](docs/readme_images/pp1-our-target-audience.png)
 
 
 
@@ -48,40 +48,40 @@ The link to the live KSail website is here: [KSail](https://doyle-kfd.github.io/
 <details>
 <summary>Persona 1</summary>
 
-![Our Target Persona 1](../KSail/assets/docs/pp1-persona-1.png)
+![Our Target Persona 1](docs/readme_images/pp1-persona-1.png)
 
 </details>
 <details>
 <summary>Persona 2</summary>
 
-![Our Target Persona 2](../KSail/assets/docs/pp1-persona-2.png)
+![Our Target Persona 2](docs/readme_images/pp1-persona-2.png)
 
 </details>
 <details>
-<summary>USer Story - Sid The Sailor</summary>
+<summary>User Story - Sid The Sailor</summary>
 
-![User Story - Sid THe Sailor](../KSail/assets/docs/pp1-user-story-sid-the-sailor.png)
+![User Story - Sid THe Sailor](docs/readme_images/pp1-user-story-sid-the-sailor.png)
 
 </details>
 <details>
 <summary>User Story - Mary The Mermaid</summary>
 
-![User Story - Mary The Mermaid](../KSail/assets/docs/pp1-user-story-mary-the-mermaid.png)
+![User Story - Mary The Mermaid](docs/readme_images/pp1-user-story-mary-the-mermaid.png)
 
 </details>
 
 <details>
 <summary>Proposed Solution</summary>
 
-![Proposed Solution](../KSail/assets/docs/pp1-proposed-solution.png)
-![My proposed solution](../KSail/assets/docs/pp1-my-solutuion.png)
+![Proposed Solution](docs/readme_images/pp1-proposed-solution.png)
+![My proposed solution](docs/readme_images/pp1-my-solutuion.png)
 
 </details>
 
 <details>
 <summary>I Will Deliver</summary>
 
-![What I Will Deliver](../KSail/assets/docs/pp1-we-will-deliver.png)
+![What I Will Deliver](docs/readme_images/pp1-we-will-deliver.png)
 
 </details>
 
