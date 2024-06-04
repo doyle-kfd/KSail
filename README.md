@@ -197,8 +197,38 @@ The fonts used are from Google's library
 ![About Page Clubs section](docs/readme_images/clubs-within-the-club.png)
 
 ### Gallery
+- #### Note:
+    - The gallery is based on a responsive mosaic style.
+    - The images used are based on the target demographic from our personas and show the type of sailing boats the visitor can expect to use.
+
+- #### Mosaic Gallery
+    - The gallery has been designed using flexbox.
+    - The gallery grows as the device breakpoints are engaged.
+
+![Gallery Page Mosaic](docs/readme_images/ksail-gallery.png)
+
 
 ### Contact
+- #### Note:
+    - The contact form has been given its own page
+    - The contact page gives all the details necessary to make an enquiry or visit or phone
+
+- #### Contact Form
+    - The contact form is overlaying a background image.
+    - The form has an opqaue background to give the text contrast.
+    - The contact form also has the postal address if the site visitor would like to do more research or visit.
+    - The form allows the user make a selection based on the course they would like to discuss.
+    - The course option on the form is used to help the club sales team understand the context of the enquiry.
+![Contact Page Form](docs/readme_images/ksail-contact-hero-form.png)
+
+- #### Map
+    - The map on the page allows the site visitor see where the course is held.
+    - The map resizes based on the device.
+    - The visitor can use the map to see how far they are from the location and directions to it.
+![Contact Page Map](docs/readme_images/ksail-location.png)
+
+
+
 
 
 ## Items left to implement
