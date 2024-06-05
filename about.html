@@ -15,6 +15,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. -->
+    <link rel="preload" fetchpriority="high" as="image" href="assets/images/ksail-sailing-club.webp"
+        type="image/webp">
 </head>
 
 <body>
@@ -38,6 +41,7 @@
     <!-- Main -->
     <main>
         <section id="about-hero-section">
+            <img src="assets/images/ksail-sailing-club.webp" alt="about page sailing club hero image">
             <div id="hero-text">
                 <h2>KSail</h2>
                 <h3>RSGYC Adult Sailing Courses.</h3>

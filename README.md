@@ -596,28 +596,39 @@ Content for the KSail website was based on the real life offerings from the RSGY
 
 ### Index.html
 
+<details> 
+
+<summary>Before</summary>
 
 | View Tested       |                                  Outcome of Audit                                           |
 |-------------------|---------------------------------------------------------------------------------------------|
-| Mobile            | <img src="docs/readme_images/index-lighthouse.png " alt="lighthouse mobile" height="150"/>  |     
+| Mobile            | <img src="docs/readme_images/index-lighthouse.png " alt="lighthouse mobile" height="150"/>  |   
 
-### Suggestions to get a higher performance score
-
-<details>
-
-<summary>Lighhouse suggestions</summary>
-
-
-<img src="docs/readme_images/index-lighthouse-suggestions.png " alt="lighthouse suggestions" height="300"/>
 
 </details>
 
+<details> 
 
-- Reducing unused CSS. Font awesome loads some extra heading content that could be removed.
-- Serving static content with efficient caching policy. This can be achieved by server side changes. TTL settings
-- Minification of CSS, removing white spaces.
-- Preconnecting to required origins could help. However we loaded fontawesome in the footer to prevent render blocking.
-- The LCP on the hero image of the page is effects the score. It could be loaded with a "link rel=preload" tag
+<summary>After</summary>
+
+| View Tested       |                                  Outcome of Audit                                           |
+|-------------------|---------------------------------------------------------------------------------------------|
+| Mobile            | <img src="docs/readme_images/index-lighthouse-fix.png " alt="lighthouse mobile" height="150"/>  |   
+
+
+</details>
+  
+
+### Steps taken to increase score
+
+The biggest factor in increasing the score was related to LCP (Largest Content Paintful)[LCP](https://web.dev/articles/optimize-lcp)
+
+The hero image on the page was delaying rendering.
+
+#### Steps
+- Resize hero image
+- Moved loading of hero image from css to index.html
+- added preload command to html
 
 
 
