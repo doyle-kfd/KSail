@@ -393,17 +393,17 @@ h3 {
 
 
 /* KSail Gallery Page */
-img {
+#ksail-photos img {
     width: 100%;
     /* Make images fit width of device screen */
     line-height: 1em;
     /* If image path breaks, alt text should be visible  */
 }
 
-#ksail-photos {
+/* #ksail-photos {
     line-height: 0px;
-    /* Remove white space between images in gallery */
-}
+} 
+*/
 
 
 
@@ -581,6 +581,10 @@ footer {
         font-size: 1rem;
     }
 
+    #ksail-photos {
+        row-gap: .25rem;
+    }
+
 }
 
 
@@ -672,7 +676,7 @@ footer {
     /* Gallery images two columns for better experience */
     #ksail-photos {
         column-count: 2;
-        column-gap: 0;
+        column-gap: 0.25rem;
     }
 
     /* Ksail enquiry container styling */
@@ -748,7 +752,7 @@ footer {
     /*  Gallery images 4 columns */
     #ksail-photos {
         column-count: 4;
-        column-gap: 0;
+        column-gap: .25rem;
     }
 
     /* Position contact form exactly where I want it on page */
