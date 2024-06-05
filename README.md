@@ -540,6 +540,58 @@ Content for the KSail website was based on the real life offerings from the RSGY
     Solution: Remove position attribute.
 
 
+- KSail choice boxes appear as different heights on tablet and laptop
+
+    <details>
+
+
+    <summary>Before</summary>
+    
+    <img src="docs/readme_images/ksail-choice-bug.png " alt="Ksail choices bug" height="300"/>
+
+
+    </details>
+
+    <details>
+
+    <summary>After</summary>
+    
+    <img src="docs/readme_images/ksail-choice-fix.png " alt="Ksail choices fix" height="300"/>
+
+
+    </details>
+
+    <details>
+    
+    <summary> Solution</summary>
+
+    ```
+    <ul class="ksail-choice-list">
+    ```
+    
+    Mobile Phone:
+
+    ```
+        .ksail-choice-list {
+        min-height:  300px;
+    }
+    ```
+    
+    
+    
+    
+    Tablet:
+
+    ```
+        .ksail-choice-list {
+        min-height:  250px;
+    }
+    ```
+
+    
+    </details>
+
+
 ## Lighthouse
 
 ### Index.html
