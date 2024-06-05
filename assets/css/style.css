@@ -109,9 +109,9 @@ main {
 
 /* Hero Section */
 #hero-section {
-    height: 500px;
+  /*    height: 500px;
     width: 100%;
-  /* background: url("../images/hero-image-learn-to-sail.webp") no-repeat center center/cover; */
+ background: url("../images/hero-image-learn-to-sail.webp") no-repeat center center/cover; */
     position: relative;
 }
 
