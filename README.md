@@ -594,7 +594,7 @@ Content for the KSail website was based on the real life offerings from the RSGY
 
 ## Lighthouse
 
-### Index.html
+### index.html
 
 <details> 
 
@@ -630,8 +630,106 @@ The hero image on the page was delaying rendering.
 - Moved loading of hero image from css to index.html
 - added preload command to html
 
+```
+    <link rel="preload" fetchpriority="high" as="image" href="assets/images/hero-image-learn-to-sail.webp" type="image/webp">
+```
 
 
+### about.html
+
+<details> 
+
+<summary>Before</summary>
+
+| View Tested       |                                  Outcome of Audit                                           |
+|-------------------|---------------------------------------------------------------------------------------------|
+| Mobile            | <img src="docs/readme_images/about-lighthouse-score-before.png " alt="lighthouse mobile" height="150"/>  |   
+
+
+</details>
+
+<details> 
+
+<summary>After</summary>
+
+| View Tested       |                                  Outcome of Audit                                           |
+|-------------------|---------------------------------------------------------------------------------------------|
+| Mobile            | <img src="docs/readme_images/about-lighthouse-score-after.png" alt="lighthouse mobile" height="150"/>  |   
+
+
+</details>
+  
+
+### Steps taken to increase score
+
+The biggest factor in increasing the score was related to LCP (Largest Content Paintful)[LCP](https://web.dev/articles/optimize-lcp)
+
+The hero image on the page was delaying rendering.
+
+#### Steps
+- Resize hero image
+- Moved loading of hero image from css to about.html
+- added preload command to html
+```
+    <link rel="preload" fetchpriority="high" as="image" href="assets/images/ksail-sailing-club.webp"
+        type="image/webp">
+```
+
+
+
+### gallery.html
+
+<details> 
+
+<summary>Before</summary>
+
+| View Tested       |                                  Outcome of Audit                                           |
+|-------------------|---------------------------------------------------------------------------------------------|
+| Mobile            | <img src="docs/readme_images/ksail-gallery-lighthouse-before.png " alt="lighthouse mobile" height="150"/>  |   
+
+
+</details>
+
+<details> 
+
+<summary>After</summary>
+
+| View Tested       |                                  Outcome of Audit                                           |
+|-------------------|---------------------------------------------------------------------------------------------|
+| Mobile            | <img src="docs/readme_images/ksail-gallery-lighthouse-after.png" alt="lighthouse mobile" height="150"/>  |   
+
+
+</details>
+  
+
+### Steps taken to increase score
+
+The biggest factor in increasing the score was related to LCP (Largest Content Paintful)[LCP](https://web.dev/articles/optimize-lcp)
+
+The images on the gallery page were delaying rendering.
+
+#### Steps
+- Resized all gallery images
+- added preload command to html
+```
+    <link rel="preload" fetchpriority="high" as="image" href="assets/images/ksail-img2.webp"
+    type="image/webp">
+```
+
+### contact.html
+
+<details> 
+
+<summary>Before</summary>
+
+| View Tested       |                                  Outcome of Audit                                           |
+|-------------------|---------------------------------------------------------------------------------------------|
+| Mobile            | <img src="docs/readme_images/contact-lighthouse-before.png" alt="lighthouse mobile" height="150"/>  |   
+
+
+</details>
+
+### no steps necessary to increase the score
 
 
 
