@@ -735,3 +735,13 @@ The images on the gallery page were delaying rendering.
 
 
 ## Accessibility
+
+### Tool used WAVE "Web Accessibility Evaluation Tool"
+
+| index.html    |      about.html            |             gallery.html   |     contact.html      |
+|---------------|----------------------------|----------------------------|-----------------------|
+|   <img src="docs/readme_images/accessibility-testing-index.png" alt="wave index.html" width="150"/>            |  <img src="docs/readme_images/accessibility-testing-about.png" alt="wave about.html" width="150"/>                          |     <img src="docs/readme_images/accessibility-testing-gallery.png" alt="wave gallery.html" width="150"/>                       |             <img src="docs/readme_images/accessibility-testing-contact.png" alt="wave xontact.html" width="150"/>          | 
+
+
+
+
