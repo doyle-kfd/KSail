@@ -333,6 +333,8 @@ hr {
     border: 2px solid #ffffff;
 }
 
+
+
 /* Style choice list items */
 #ksail-choices li {
     color: #ffffff;
@@ -661,6 +663,10 @@ footer {
     #ksail-benefits-section2>div {
         align-self: flex-end;
         padding: 1rem;
+    }
+
+    .ksail-choice-list {
+        min-height:  300px;
     }
 
     /* Gallery images two columns for better experience */
