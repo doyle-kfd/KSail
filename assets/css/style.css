@@ -741,6 +741,10 @@ footer {
         padding: 1rem;
     }
 
+    .ksail-choice-list {
+        min-height:  250px;
+    }
+
     /*  Gallery images 4 columns */
     #ksail-photos {
         column-count: 4;
