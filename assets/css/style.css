@@ -10,7 +10,7 @@
 
 body {
     min-height: 100vh;
-    /* vody should take up full height of screen */
+    /* take up full height of screen */
     display: flex;
     /* responsive design */
     flex-direction: column;
@@ -18,9 +18,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -172,7 +170,7 @@ iframe {
 }
 
 
-/* Ksail resons styling */
+/* Ksail intro styling */
 #about-intro h2 {
     margin-bottom: 20px;
     text-align: center;
@@ -289,6 +287,13 @@ iframe {
     font-size: 280%;
 }
 
+/* ksail reasons reset h2 and h3 to standard color and no shadow */
+
+#ksail-reasons h3 {
+    color: #003366;
+    text-shadow: none;
+}
+
 /* Give decendant divs line height and bottom margin */
 #ksail-benefits-section1>div,
 #ksail-benefits-section2>div {
@@ -350,7 +355,7 @@ hr {
     text-shadow: none;
 }
 
-/* Ksail Sailing choices Css */
+/* Ksail section Css */
 #ksail-section {
     height: 500px;
     width: 100%;
