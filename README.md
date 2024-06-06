@@ -81,7 +81,7 @@ The link to the live KSail website is here: [KSail](https://doyle-kfd.github.io/
 <details>
 <summary>I Will Deliver</summary>
 
-![What I Will Deliver](docs/readme_images/pp1-we-will-deliver.png)
+![What I Will Deliver](docs/readme_images/pp1-i-will-deliver.png)
 
 </details>
 
