@@ -341,9 +341,7 @@ The responsive design is based on the "I love running site"
 
 ### Nav Bar
 
-<details>
 
-<summary>Nav Bar Testing</summary>
 
 | Feature    |   Test Case    |   Outcome      |
 |------------|----------------|----------------|
@@ -354,13 +352,10 @@ The responsive design is based on the "I love running site"
 | Navbar - Contact Page | Click on the Contact link on each page | User is brought to Contact page |
 | Navbar - Active Status | On each page, active status should show under page name | Bar under page name shows |
 
-</details>
+
 
 ### Footer
 
-<details>
-
-<summary>Footer Testing</summary>
 
 | Feature    |   Test Case    |   Outcome      |
 |------------|----------------|----------------|
@@ -395,13 +390,10 @@ The responsive design is based on the "I love running site"
 | Footer - Contact Page -  Telephone link | Click on footer Telephone link | On Tablet or Laptop, Popup with pick an app message |
 | Footer - Contact Page -  Facebook link | Click on footer Facebook link | New Tab opens with Facebook |
 
-</details>
 
 ### Contact Form
 
-<details>
 
-<summary>Contact Form Testing</summary>
 
 | Feature    |   Test Case    |   Outcome      |
 |------------|----------------|----------------|
@@ -409,35 +401,17 @@ The responsive design is based on the "I love running site"
 | Contact Form | Last name required - leave out last name | ! Please fill out this field |
 | Contact Form | Email required - leave out Email | ! Please fill out this field |
 | Contact Form | Telephone number not required - leave out  Telephone | No error |
-</details>
-
-<details>
-
-<summary>Contact Form Taster Ouput </summary>
-
-![Contact Form Taster Selected](docs/readme_images/ksail-contact-taster.png)
-
-</details>
-<details>
-
-<summary>Contact Form Starter Ouput </summary>
-
-![Contact Form Starter Selected](docs/readme_images/ksail-contact-starter.png)
-
-</details>
-
-<details>
-
-<summary>Contact Form Improver Ouput </summary>
-
-![Contact Form Improver Selected](docs/readme_images/ksail-contact-improver.png)
-
-</details>
 
 
+>Testing of the form was carried out for the three options
+- KSail Taster
+- KSail Starter
+- KSail Improver
 
 
-
+| Taster Output  |   Starter Output  |   Improver     |
+|------------|----------------|----------------|
+|          <img src="docs/readme_images/ksail-contact-taster.png " alt="Ksail taster" width="300"/>      |           <img src="docs/readme_images/ksail-contact-starter.png " alt="Ksail starter" width="300"/>         |             <img src="docs/readme_images/ksail-contact-improver.png " alt="Ksail choices improver" width="300"/>       | 
 
 
 ## Browser Compatability
@@ -458,28 +432,16 @@ The responsive design is based on the "I love running site"
 
 ### Responsive Test Screenshots
 
-<details>
-<summary>Mobile Phone</summary>
+| Mobile Phone  |   Tablet  |   Laptop     |
+|-------------------|-------------------------|-------------------------------|
+| <img src="docs/readme_images/galaxy-fold-280-653.png" alt="mobile phone responsive test" width="300"/>       |   <img src="docs/readme_images/ipad-768-1024.png" alt="mobile phone responsive test" width="300"/>                    |            <img src="docs/readme_images/laptop-1200-979.png" alt="mobile phone responsive test" width="300"/>              |
 
-![Mobile Phone - Galaxy Fold -  280X653px](/docs/readme_images/galaxy-fold-280-653.png)
 
-</details>
-<details>
-<summary>Tablet</summary>
-
-![Tablet iPad 768X1024px](/docs/readme_images/ipad-768-1024.png)
-
-</details>
-
-<details>
-<summary>Laptop</summary>
-
-![Laptop 1200X979px](/docs/readme_images/laptop-1200-979.png)
-
-</details>
 
 
 ## Code Validation
+
+> No Errors Found In Validated HTML/CSS
 
 ### Index page validation
 
@@ -522,34 +484,39 @@ The responsive design is based on the "I love running site"
 
 ## Bugs
 
-- Adding favicon
-    - Bug: Favicon would not show
-    - Solution: change directory structure and add to link tag
+<details>
 
-- Active status under active page title not working
-    - Bug: Active menu item not showing on menu bar
-    - Fix: changed bottom border in css
+<summary>Adding favicon</summary>
 
-       Before:
-       ```
-       #menu a:hover {
-           border-bottom: 1 solid #3a3a3a;
-       }
-      ```
+- Bug: Favicon would not show
+- Solution: change directory structure and add to link tag
+</details>
 
+<details>
 
-       After:
-       ```
-      #menu a:hover {
-          border-bottom: 1px solid #3a3a3a;
-        }
-      ```
+<summary>Active status under active page title not working</summary>
 
-- Adding colour over background image
-    -Solution: [MDN]https://developer.mozilla.org/en-US/docs/Web/CSS/background-color
+- Bug: Active menu item not showing on menu bar
+- Fix: changed bottom border in css
+
+Before:
+```
+#menu a:hover {
+      border-bottom: 1 solid #3a3a3a;
+  }
+```
 
 
-- Form does not hold position during resizing in responsive mode
+After
+```
+#menu a:hover {
+      border-bottom: 1px solid #3a3a3a;
+  }
+```
+</details>
+<details>
+
+<summary>Form does not hold position during resizing in responsive mode</summary>
 
     Before:
 
@@ -565,94 +532,62 @@ The responsive design is based on the "I love running site"
       ```
 
     Solution: Remove position attribute.
+</details>
+
+<details>
+
+<summary>KSail choice boxes appear as different heights on tablet and laptop</summary>
+
+|           Before               |                         After               |
+|--------------------------------|---------------------------------------------|
+| <img src="docs/readme_images/ksail-choice-bug.png " alt="Ksail choices bug" height="300"/> |     <img src="docs/readme_images/ksail-choice-fix.png " alt="Ksail choices fix" height="300"/>        |
 
 
-- KSail choice boxes appear as different heights on tablet and laptop
 
-    <details>
+>Solution
 
-
-    <summary>Before</summary>
+```
+  <ul class="ksail-choice-list">
+```
     
-    <img src="docs/readme_images/ksail-choice-bug.png " alt="Ksail choices bug" height="300"/>
+Mobile Phone:
 
+```
+    .ksail-choice-list {
+           min-height:  300px;
+     }
+```
+        
+Tablet:
 
-    </details>
-
-    <details>
-
-    <summary>After</summary>
-    
-    <img src="docs/readme_images/ksail-choice-fix.png " alt="Ksail choices fix" height="300"/>
-
-
-    </details>
-
-    <details>
-    
-    <summary> Solution</summary>
-
-    ```
-    <ul class="ksail-choice-list">
-    ```
-    
-    Mobile Phone:
-
-    ```
-        .ksail-choice-list {
-        min-height:  300px;
-    }
-    ```
-    
-    
-    
-    
-    Tablet:
-
-    ```
-        .ksail-choice-list {
+```
+    .ksail-choice-list {
         min-height:  250px;
     }
-    ```
+```
 
-    
-    </details>
+</details>
+
 
 
 ## Lighthouse
 
-### index.html
+<details>
 
-<details> 
+<summary>index.html</summary>
 
-<summary>Before</summary>
-
-| View Tested       |                                  Outcome of Audit                                           |
+| Before   |                                 After                                          |
 |-------------------|---------------------------------------------------------------------------------------------|
-| Mobile            | <img src="docs/readme_images/index-lighthouse.png " alt="lighthouse mobile" height="150"/>  |   
+| <img src="docs/readme_images/index-lighthouse.png " alt="lighthouse mobile" height="150"/>         | <img src="docs/readme_images/index-lighthouse-fix.png " alt="lighthouse mobile" height="150"/> |   
 
 
-</details>
 
-<details> 
+### Understanding the problem
 
-<summary>After</summary>
+- The biggest factor in increasing the score was related to LCP (Largest Content Paintful)[LCP](https://web.dev/articles/optimize-lcp)
+- The hero image on the page was delaying rendering.
 
-| View Tested       |                                  Outcome of Audit                                           |
-|-------------------|---------------------------------------------------------------------------------------------|
-| Mobile            | <img src="docs/readme_images/index-lighthouse-fix.png " alt="lighthouse mobile" height="150"/>  |   
-
-
-</details>
-  
-
-### Steps taken to increase score
-
-The biggest factor in increasing the score was related to LCP (Largest Content Paintful)[LCP](https://web.dev/articles/optimize-lcp)
-
-The hero image on the page was delaying rendering.
-
-#### Steps
+>Steps Taken
 - Resize hero image
 - Moved loading of hero image from css to index.html
 - added preload command to html
@@ -661,39 +596,24 @@ The hero image on the page was delaying rendering.
     <link rel="preload" fetchpriority="high" as="image" href="assets/images/hero-image-learn-to-sail.webp" type="image/webp">
 ```
 
-
-### about.html
-
-<details> 
-
-<summary>Before</summary>
-
-| View Tested       |                                  Outcome of Audit                                           |
-|-------------------|---------------------------------------------------------------------------------------------|
-| Mobile            | <img src="docs/readme_images/about-lighthouse-score-before.png " alt="lighthouse mobile" height="150"/>  |   
-
-
 </details>
 
-<details> 
+<details>
 
-<summary>After</summary>
+<summary>about.html</summary>
 
-| View Tested       |                                  Outcome of Audit                                           |
+| Before   |                                 After                                          |
 |-------------------|---------------------------------------------------------------------------------------------|
-| Mobile            | <img src="docs/readme_images/about-lighthouse-score-after.png" alt="lighthouse mobile" height="150"/>  |   
+| <img src="docs/readme_images/about-lighthouse-score-before.png " alt="lighthouse mobile" height="150"/>        | <img src="docs/readme_images/about-lighthouse-score-after.png" alt="lighthouse mobile" height="150"/> |   
 
 
-</details>
-  
 
-### Steps taken to increase score
+### Understanding the problem
 
-The biggest factor in increasing the score was related to LCP (Largest Content Paintful)[LCP](https://web.dev/articles/optimize-lcp)
+- The biggest factor in increasing the score was related to LCP (Largest Content Paintful)[LCP](https://web.dev/articles/optimize-lcp)
+- The hero image on the page was delaying rendering.
 
-The hero image on the page was delaying rendering.
-
-#### Steps
+>Steps Taken
 - Resize hero image
 - Moved loading of hero image from css to about.html
 - added preload command to html
@@ -702,40 +622,24 @@ The hero image on the page was delaying rendering.
         type="image/webp">
 ```
 
-
-
-### gallery.html
-
-<details> 
-
-<summary>Before</summary>
-
-| View Tested       |                                  Outcome of Audit                                           |
-|-------------------|---------------------------------------------------------------------------------------------|
-| Mobile            | <img src="docs/readme_images/ksail-gallery-lighthouse-before.png " alt="lighthouse mobile" height="150"/>  |   
-
-
 </details>
 
-<details> 
+<details>
 
-<summary>After</summary>
+<summary>gallery.html</summary>
 
-| View Tested       |                                  Outcome of Audit                                           |
+| Before   |                                 After                                          |
 |-------------------|---------------------------------------------------------------------------------------------|
-| Mobile            | <img src="docs/readme_images/ksail-gallery-lighthouse-after.png" alt="lighthouse mobile" height="150"/>  |   
+| <img src="docs/readme_images/ksail-gallery-lighthouse-before.png " alt="lighthouse mobile" height="150"/>        | <img src="docs/readme_images/ksail-gallery-lighthouse-after.png" alt="lighthouse mobile" height="150"/> |   
 
 
-</details>
-  
 
-### Steps taken to increase score
+### Understanding the problem
 
-The biggest factor in increasing the score was related to LCP (Largest Content Paintful)[LCP](https://web.dev/articles/optimize-lcp)
+- The biggest factor in increasing the score was related to LCP (Largest Content Paintful)[LCP](https://web.dev/articles/optimize-lcp)
+- The images on the gallery page were delaying rendering.
 
-The images on the gallery page were delaying rendering.
-
-#### Steps
+>Steps Taken
 - Resized all gallery images
 - added preload command to html
 ```
@@ -743,22 +647,22 @@ The images on the gallery page were delaying rendering.
     type="image/webp">
 ```
 
-### contact.html
-
-<details> 
-
-<summary>Before</summary>
-
-| View Tested       |                                  Outcome of Audit                                           |
-|-------------------|---------------------------------------------------------------------------------------------|
-| Mobile            | <img src="docs/readme_images/contact-lighthouse-before.png" alt="lighthouse mobile" height="150"/>  |   
-
-
 </details>
 
-### no steps necessary to increase the score
+
+<details>
+
+<summary>contact.html</summary>
+
+| Before   |
+|-------------------|
+| <img src="docs/readme_images/contact-lighthouse-before.png" alt="lighthouse mobile" height="150"/>       |
 
 
+
+>No remedial steps were needeed 
+
+</details>
 
 
 ## Accessibility
