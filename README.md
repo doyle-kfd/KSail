@@ -5,7 +5,7 @@ It is broadly designed around an exisiting page on the Royal St. George Yacht Cl
 The KSail site is how I would invisage a website for adult sailing courses would look if I was asked to design and develop one.
 
 KSail is developed, based on real discussions and observations.
-While the information on the site is not real, the methodology of providing a business case, personas and user stories is real life.
+While the information on the KSail site is not real, the methodology of providing a business case, personas and user stories is real life.
 
 The link to the live KSail website is here: [KSail](https://doyle-kfd.github.io/KSail/)
 
@@ -85,6 +85,139 @@ The link to the live KSail website is here: [KSail](https://doyle-kfd.github.io/
 
 </details>
 
+
+
+## Features and benefits
+
+### Navigation
+- The responsive navigation bar links the logo, Home, About, Gallery and Contact pages.
+- Th Nav bar is fixed in position, allowing navigation while scrolling
+- Aesthetically, there is a drop shadow which gives a 3D effect.
+
+![Navigation Bar](docs/readme_images/menu-bar.png)
+
+### Footer
+- The footer is visible on each page and has links to Facebook, Instagram, YouTube, WhatsApp and a phone number. These links have been selected based on customer feedback. The idea of having a phone number and a WhatsApp icon on the footer is to allow the site visitor contact the sales team directly from the phone.
+- The drop shadow on the footer is in reverse of the header one. It give the aesthetically pleasing effect of a 3D experience.
+- The social icons open in a new tab to ensure the visitor stays on the KSail site.
+- The two direct call to action buttons, WhatsApp and phone icons will start a direct action with the KSail team.
+
+![Footer](docs/readme_images/ksail-footer.png)
+
+### Index
+
+- #### Note:
+    - The index page has been designed with the visitors first impression in mind.
+    - The page is focused on selling the experience, from whats in it for you to what we provide.
+    - The imagery and text is based on the targeted demographic in the personas.
+
+- ####  Hero Section 
+
+    - The hero image with text sets the scene for the site visitors first experience.
+    - The image is one from the type of sailing boat they will use on the course.
+    - The image and the text provides a clear expectation of what the visitor will experience.
+    - The text with the opque background have both  been given a drop shadow to make them stand out for contrast purposes.
+
+![Index Page Hero Image](docs/readme_images/index-hero.png)
+
+- #### Reasons Section
+    - The reasons section is used to articlate the exciting and fun reasons that a visitor would want to join KSail.
+    - These 4 reasons are based on the bullseye customer that signs up for a KSail course.
+    - These 4 reasons are used to set the fun and excitement element to the Ksail courses.
+
+![Index Page KSail Reasons](docs/readme_images/ksail-reasons.png)
+
+- #### KSail Intro
+    - The KSail hero image is the introduction section to the page. The visitor has seen at the top they are in the right place. The benefits have been explained, now I introduce the courses.
+    - The KSail hero image shows the type of sailboats the visitor would be on.
+    - The KSail hero image shows the type of people I am targeting.
+    - The text has been given a drop shadow on an opqaue background which has a drop shadow in order to give it a contrast.
+
+![Index Page KSail Image](docs/readme_images/ksail-hero.png)
+
+- #### KSail Courses
+    - The KSail courses are fully responsive.
+    - The KSail courses detail exactly what they can expect from each course.
+    - The KSail courses show the progression possible from sampler to starter to improver.
+    - There is no disctraction with other unrelated courses or detail.
+    - The courses are layered over a background image with an opaque color for text contrast.
+    - The titles have been given a drop shadow to help them stand out.
+
+![Index Page KSail Courses](docs/readme_images/ksail-courses.png)
+
+### About
+
+- #### Note:
+    - I consider the About page as a necessity but was not initially included as MVP.
+    - The About page lends credibility to the courses by showing that we have a club with offerings that would suit someone who is looking for more than a weekend of sailing.
+
+- #### About Hero Section
+    - The hero image and the supporting text is used to show that behind KSail there is a club and the clubs motto.
+    - The motto "No Boat No Problem" is used to give the site visitor the message that you dont need to own your own boat to sail.
+    - The club is always looking for suitable members and KSail is an opportunity to offer trainees the opportunity to sample club life.
+
+![About Page Hero section](docs/readme_images/ksail-about-hero.png)
+
+- #### Welcome to the club section
+    - The welcome section displays the club sailor offering. 
+    - The 5 sections detail what the club has to offer with a color overlay on a background image to give textual contrast.
+
+![About Page Welcome section](docs/readme_images/welcome-to-the-club.png)
+
+- #### Clubs within the club section
+    - This section details the depth within the sialing club. There are numerous options available if you are a member.
+    - The imagery used in this section is all selected to imply quality.
+    - The use of the age differences in the snooker image are chosen to show the age differences that members cover.
+    - The title in each section has been given an opaque background and a drop shadow to make the text stand out.
+
+![About Page Clubs section](docs/readme_images/clubs-within-the-club.png)
+
+### Gallery
+- #### Note:
+    - The gallery is based on a responsive masonary style.
+    - The images used are based on the target demographic from our personas and show the type of sailing boats the visitor can expect to use.
+
+- #### Masonary Gallery
+    - The gallery has been designed using flexbox.
+    - The gallery grows as the device breakpoints are engaged.
+
+![Gallery Page Masonary](docs/readme_images/ksail-gallery.png)
+
+
+### Contact
+- #### Note:
+    - The contact form has been given its own page.
+    - The contact page gives all the details necessary to make an enquiry or visit or phone.
+
+- #### Contact Form
+    - The contact form is overlaying a background image.
+    - The form has an opqaue background to give the text contrast.
+    - The contact form also has the postal address if the site visitor would like to do more research or visit.
+    - The form allows the user make a selection based on the course they would like to discuss.
+    - The course option on the form is used to help the club sales team understand the context of the form enquiry upon submission.
+
+![Contact Page Form](docs/readme_images/ksail-contact-hero-form.png)
+
+- #### Map
+    - The map on the page allows the site visitor see where the course is held.
+    - The map resizes based on the device.
+    - The visitor can use the map to see how far they are from the location and directions to it.
+
+![Contact Page Map](docs/readme_images/ksail-location.png)
+
+
+
+## Given the time, I would implement
+
+- a proper scoping phase
+- surveys and workshops to find out the bullseye customer in order to increase sales
+- eCommerce integration for direct payment
+- sales pages for each course
+- a proper drodown menu
+- a privacy option on the contact form
+- a live js chatbot
+- a faq page answering all known questions to allow a clearer sales process
+
 ## Design
 
 ### Overall comments
@@ -94,7 +227,7 @@ The current Adult Sailing web presence does not give the site visitors a "WOW" f
 The imagery used in the KSail is selected to give the visitor a comfort feeling that they have arrived in the right place. It features sailboats similar to those that they will train on with imagery of people from the age demographic that KSail is targeting.
 
 ### Colours
-THe colors are those of the RSGYC, Royal St. George Yacht Club. I have used the Blue as much as possible and gone as light on the red as possible.
+THe colors are those of the RSGYC, Royal St. George Yacht Club. I have used the blue as much as possible and gone as light on the red as possible.
 
 ### Fonts
 The fonts used are from Google's library
@@ -122,122 +255,6 @@ The fonts used are from Google's library
 
 </details>
 
-## Features and benefits
-
-### Navigation
-- The responsive navigation bar links the logo, Home, About, Gallery and Contact pages.
-- Th Nav bar is fixed in position, allowing navigation while scrolling
-- Aesthetically, there is a drop shadow which gives a 3D effect.
-![Navigation Bar](docs/readme_images/menu-bar.png)
-
-### Footer
-- The footer is visible on each page and has links to Facebook, Instagram, YouTube, WhatsApp and a phone number. These links have been selected based on customer feedback. The idea of having a phone number and a WhatsApp icon on the footer is to allow the site visitor contact the sales team directly from the phone.
-- The drop shadow on the footer is in reverse of the header one. It give the aesthetically pleasing effect of a 3D experience.
-- The social icons open in a new tab to ensure the visitor stays on the KSail site.
-- The two direct call to action buttons, WhatsApp and phone icons will start a direct action with the KSail team.
-![Footer](docs/readme_images/ksail-footer.png)
-
-### Index
-
-- #### Note:
-    - The index page has been designed with the visitors first impression in mind.
-    - The page is focused on selling the experience, from whats in it for you to what we provide.
-    - The imagery and text is based on the targeted demographic in the personas.
-
-- ####  Hero Section 
-
-    - The hero image with text sets the scene for the site visitors first experience.
-    - The image is one from the type of sailing boat they will use on the course.
-    - The image and the text provides a clear expectation of what the visitor will experience.
-    - The text with the opque background have both  been given a drop shadow to make them stand out for contrast purposes.
-![Index Page Hero Image](docs/readme_images/index-hero.png)
-
-- #### Reasons Section
-    - The reasons section is used to articlate the exciting and fun reasons that a visitor would want to join KSail.
-    - These 4 reasons are based on the bullseye customer that signs up for a KSail course.
-    - These 4 reasons are used to set the fun and excitement element to the Ksail courses.
-![Index Page KSail Reasons](docs/readme_images/ksail-reasons.png)
-
-- #### KSail Intro
-    - The KSail hero image is the introduction section to the page. The visitor has seen at the top they are in the right place. The benefits have been explained, now I introduce the courses.
-    - The KSail hero image shows the type of sailboats the visitor would be on.
-    - The KSail hero image shows the type of people I am targeting.
-    - The text has been given a drop shadow on an opqaue background which has a drop shadow in order to give it a contrast.
-![Index Page KSail Image](docs/readme_images/ksail-hero.png)
-
-- #### KSail Courses
-    - The KSail courses are fully responsive
-    - The KSail courses detail exactly what they can expect from each course.
-    - The KSail courses show the progression possible from sampler to sailor to improver
-    - There is no disctraction with other unrelated courses or detail.
-    - The courses are layered over a background image with an opaque color for text contrast.
-    - The titles have been given a drop shadow to help them stand out.
-![Index Page KSail Courses](docs/readme_images/ksail-courses.png)
-
-### About
-
-- #### Note:
-    - I consider the About page as a necessity but was not initially included as MVP.
-    - The page lends credibility to our courses by showing that we have offerings that would suit someone who is looking for more than a weekend of sailing.
-
-- #### About Hero Section
-    - The hero image and the supporting text is used to show that behind KSail there is a club and the clubs motto.
-    - The motto "No Boat No Problem" is used to give the site visitor the message that you dont need to own your own boat to sail.
-    - The club is always looking for suitable members and KSail is an opportunity to offer trainees the opportunity to sample club life.
-![About Page Hero section](docs/readme_images/ksail-about-hero.png)
-
-- #### Welcome to the club section
-    - The welcome section displays the club sailor offering. 
-    - The 5 sections detail what the club has to offer with a color overlay on a background image to give textual contrast.
-![About Page Welcome section](docs/readme_images/welcome-to-the-club.png)
-
-- #### Clubs within the club section
-    - This section details the depth within the sialing club. There are numerous options available if you are a member.
-    - The imagery used in this section is all selected to imply quality.
-    - The use of the age differences in the snooker image are chosen to show the age differences that members cover.
-    - The title in each section has been given an opaque background and a drop shadow to make the text stand out.
-![About Page Clubs section](docs/readme_images/clubs-within-the-club.png)
-
-### Gallery
-- #### Note:
-    - The gallery is based on a responsive mosaic style.
-    - The images used are based on the target demographic from our personas and show the type of sailing boats the visitor can expect to use.
-
-- #### Mosaic Gallery
-    - The gallery has been designed using flexbox.
-    - The gallery grows as the device breakpoints are engaged.
-
-![Gallery Page Mosaic](docs/readme_images/ksail-gallery.png)
-
-
-### Contact
-- #### Note:
-    - The contact form has been given its own page
-    - The contact page gives all the details necessary to make an enquiry or visit or phone
-
-- #### Contact Form
-    - The contact form is overlaying a background image.
-    - The form has an opqaue background to give the text contrast.
-    - The contact form also has the postal address if the site visitor would like to do more research or visit.
-    - The form allows the user make a selection based on the course they would like to discuss.
-    - The course option on the form is used to help the club sales team understand the context of the enquiry.
-![Contact Page Form](docs/readme_images/ksail-contact-hero-form.png)
-
-- #### Map
-    - The map on the page allows the site visitor see where the course is held.
-    - The map resizes based on the device.
-    - The visitor can use the map to see how far they are from the location and directions to it.
-![Contact Page Map](docs/readme_images/ksail-location.png)
-
-
-
-
-
-## Given the time, I would implement
-
-- eCommerce integration for direct payment
-- sales pages for each course
-
 ## Deployment
 The project was deployed using GitHub pages. The steps to deploy using GitHub pages are:
 1. Go to the repository on GitHub.com
@@ -254,33 +271,43 @@ Live site can be viewed here: [KSail](https://doyle-kfd.github.io/KSail/)
 To clone the KSail repository
 1. On GitHub.com, navigate to the main page of the repository.
 2. Above the list of files, click  Code.
-![Git Clone Repo](docs/readme_images/git-clone.png)
 3. Copy the URL for the repository.
-    -To clone the repository using HTTPS, under "HTTPS", copy the url.
-
-![Git Clone Repo Url Copy](docs/readme_images/git-clone-copy.png)
-
 4. Open Git Bash.
-
 5. Change the current working directory to the location where you want the cloned directory.
-
 6. Type git clone, and then paste the URL you copied earlier.
-
-``
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-``
-
 7. ress Enter to create your local clone.
+
+Full instructions on cloning can be found here: [Cloning Instructions ](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
 ## Credits
 
 ### Content
 
-Content for the KSail website was based on the real life offerings from the RSGYC.
+The concept for the KSail website is based on the real life offerings from the RSGYC.
 
 [Royal St. George Yacht Club](https://www.rsgyc.ie/training-3/usail/)
 
+The responsive design is based on the "I love running site"
+
+### Features
+- Header, Footer Styling, Flex concept - Love Running Tutorial
+- Box Shadow generation: [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Box-shadow_generator)
+- Telephone link in footer: [W3Schools](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_phoneto)
+- Contact form input types: [W3Schools](https://www.w3schools.com/html/html_form_input_types.asp)
+
+
+### CSS References
+- Flexbox   
+    -  [W3Schools](https://www.w3schools.com/css/css3_flexbox.asp)
+    -  [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/flex)
+
+
+### Favicon
+
+- [Favicon generator ](https://favicon.io/emoji-favicons/sailboat)
+
 ### Images
+
 - [Unsplash](https://unsplash.com/photos/)
     - Index page:
         - hero image
