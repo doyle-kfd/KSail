@@ -20,6 +20,8 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+    /* set the heading font type and color */
+
 h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
@@ -31,13 +33,10 @@ h1, h2, h3 {
 header {
     background-color: #ffffff;
     padding: 0 1rem;
-    position: fixed;
-    /* Keep header in position when scrolling on mobile phone */
-    z-index: 99;
-    /* Raise header on z axis to layer above everything */
-    width: 100%;
-    /* Fill full width */
-    box-shadow: 0px 2px 6px 0px #3A3A3A;
+    position: fixed;    /* Keep header in position when scrolling on mobile phone */
+    z-index: 99;    /* Raise header on z axis to layer above everything */
+    width: 100%;    /* Fill full width */
+    box-shadow: 0px 2px 6px 0px #3A3A3A; /* Give the header a 3D effect */
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -45,24 +44,26 @@ header {
     border-bottom: 5px solid #b70f26;
 }
 
+/* Remove the underling of the menu anchor text */
 header a {
     text-decoration: none;
     color: inherit;
 }
 
-
-
+/* Increase the menu text, space it and dont show bullets */
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
 }
 
+/* Each menu item, make heavier font weight */
 #menu>li {
     margin-bottom: 1em;
     font-weight: 700;
 }
 
+/* give the active page an under line */
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
@@ -71,18 +72,15 @@ header a {
 nav {
     position: absolute;
     background-color: #ffffff;
-    width: 100%;
-    /* Full width of screen */
-    left: 0;
-    /* Align Left */
+    width: 100%;    /* Full width of screen */
+    left: 0;    /* Align Left */
     padding: 0 1rem;
     box-shadow: 0px 2px 6px 0px #3a3a3a;
-    display: none;
-    /* Hide nav elements, html needed to create open/dropdown  */
+    display: none;    /* Hide nav elements, html needed to create open/dropdown  */
     top: 100%;
 }
 
-/* Navigation Toggle */
+/* Navigation Toggle Styling */
 #toggle-nav:checked~nav {
     display: block;
 }
@@ -95,15 +93,12 @@ nav {
     font-size: 2rem;
 }
 
-/* Main */
+/* Main styling */
 main {
-    background-color: #ffffff;
-    /* Make main element take up all availavle space, pushing footer to the bottom */
-    flex: 1 0 auto;
-    /* use flex - grow - automatically take up all the space  */
+    background-color: #ffffff;    /* Make main element take up all availavle space, pushing footer to the bottom */
+    flex: 1 0 auto;    /* use flex - grow - automatically take up all the space  */
     margin-top: 48px;
-    display: flex;
-    /* Enable flex */
+    display: flex;    /* Enable flex */
     flex-direction: column;
 }
 
@@ -113,6 +108,7 @@ footer {
     background-color: #b70f26;
 }
 
+/* Solcial media footer styling */
 #social-network {
     text-align: center;
     padding: 15px 0;
@@ -132,17 +128,15 @@ footer {
 #hero-section {
     height: 500px;
     width: 100%;
-    background: url("../images/hero-image-learn-to-sail.webp") no-repeat center center/cover;
+    background: url("../images/hero-image-learn-to-sail.webp") no-repeat center center/cover; /* Give the hero section a background image */
     position: relative;
 }
 
 /* Positioning hero text box */
 #hero-text {
     background-color: RGBA(183, 15, 38, 0.50);
-    box-shadow: 0px 2px 6px 0px #3a3a3a;
-    /* Opacity on bg color for effect */
-    position: absolute;
-    /* Position hero text box on screen */
+    box-shadow: 0px 2px 6px 0px #3a3a3a;    /* Opacity on bg color for effect */
+    position: absolute;    /* Position hero text box on screen */
     bottom: 30px;
     width: 80%;
     min-height: 200px;
@@ -157,8 +151,8 @@ h3 {
     color: #ffffff;
     /* text shadow to make heading pop on the opaqye bg */
     text-shadow: 1px 1px 1px #3A3A3A;
-    text-transform: capitalize;
     /* Added to capatilise first letter in each h2 and h3 word */
+    text-transform: capitalize;
 }
 
 /* hero styling h2 specific text */
@@ -168,7 +162,7 @@ h3 {
 
 }
 
-/* Style ksail reasons div*/
+/* Style ksail reasons div */
 #ksail-reasons {
     width: 90%;
     /* Space top and bottom and center */
@@ -215,7 +209,7 @@ hr {
 
 /* ksail choices styling background image with color overlay*/
 #ksail-choices {
-    background: url('../images/learning-to-sail.webp') no-repeat center/cover;
+    background: url('../images/learning-to-sail.webp') no-repeat center/cover; /* Give choices feature a background image */
     display: flex;
     flex-wrap: wrap;
 }
@@ -224,14 +218,11 @@ hr {
 #ksail-choices div {
     background-color: #003366cf;
     padding: 10px;
-    /* will not wrap on screens of 400px or less
-       Each div will expand to fill the spave available on the row. */
+    /* Each div will expand to fill the space available on the row. starting with 200px */
     flex-basis: 200px;
     flex-grow: 1;
     border: 2px solid #ffffff;
 }
-
-
 
 /* Style choice list items */
 #ksail-choices li {
@@ -242,25 +233,23 @@ hr {
 }
 
 /* ksail reasons reset h2 and h3 to standard color and no shadow */
-
 #ksail-reasons h3 {
     color: #003366;
     text-shadow: none;
 }
 
-/* Ksail section Css */
+/* Ksail section styling */
 #ksail-section {
     height: 500px;
     width: 100%;
-    background: url("../images/ksail-get-going.webp") no-repeat center center/cover;
+    background: url("../images/ksail-get-going.webp") no-repeat center center/cover; /* Give section a bg image */
     position: relative;
 }
 
 /* Ksail Section Styling to break content */
 #ksail-text {
-    background-color: RGBA(183, 15, 38, 0.60);
+    background-color: RGBA(183, 15, 38, 0.60);     /* Opacity on bg color for effect */
     box-shadow: 0px 2px 6px 0px #3a3a3a;
-    /* Opacity on bg color for effect */
     position: absolute;
     /* Position hero text box on screen */
     bottom: 30px;
@@ -270,16 +259,12 @@ hr {
     padding-left: 10px;
 }
 
-
 /* ksail styling h2 and h3 text */
-#ksail-text h2,
-h3 {
+#ksail-text h2, h3 {
     font-size: 120%;
     color: #ffffff;
     /* text shadow to make heading pop on the opaqye bg */
     text-shadow: 1px 1px 1px #3A3A3A;
-    text-transform: capitalize;
-    /* Added to capatilise first letter in each h2 and h3 word */
 }
 
 /* ksail styling h2 specific text */
@@ -295,7 +280,7 @@ h3 {
 #about-hero-section {
     height: 500px;
     width: 100%;
-    background: url("../images/ksail-sailing-club.webp") no-repeat center center/cover;
+    background: url("../images/ksail-sailing-club.webp") no-repeat center center/cover; /* Add background image */
     position: relative;
 }
 
@@ -317,7 +302,7 @@ h3 {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background: url("../images/ksail-sailing-club.webp") no-repeat center center/cover;
+    background: url("../images/ksail-sailing-club.webp") no-repeat center center/cover; /* add background image */
 }
 
 
@@ -327,8 +312,7 @@ h3 {
     min-height: 200px;
     text-align: center;
     padding-top: 2rem;
-    /* will not wrap on screens of 400px or less
-       Each div will expand to fill the spave available on the row. */
+    /* Each div will expand to fill the spave available on the row. start with 200px */
     flex-basis: 200px;
     flex-grow: 1;
     border: 2px solid #ffffff;
@@ -341,6 +325,7 @@ h3 {
     margin: 20px auto;
 }
 
+/* Style h2 text in section break */
 #about-section-break h2 {
     text-align: center;
     color: #003366;
@@ -357,13 +342,13 @@ h3 {
     background-color: #003366a6;
     padding: 10px;
     height: 200px;
-    /* will not wrap on screens of 400px or less
-       Each div will expand to fill the spave available on the row. */
+    /* Each div will expand to fill the spave available on the row. Start with 200px */
     flex-basis: 200px;
     flex-grow: 1;
     border: 2px solid #ffffff;
 }
 
+/* Style h3 text for clubs text */
 #ksail-clubs h3 {
     background-color: #00336672;
     padding: 10px;
@@ -371,6 +356,7 @@ h3 {
     text-shadow: 1px 1px 1px #3A3A3A;
 }
 
+/* For each of the club div's add a background image */
 #dining {
     background: url('../images/dining.webp') no-repeat center/cover;
     flex-grow: 1;
@@ -399,37 +385,35 @@ h3 {
 
 /*************** Gallery Specific Page **************************/
 #ksail-photos img {
-    width: 100%;
-    /* Make images fit width of device screen */
-    line-height: 1em;
-    /* If image path breaks, alt text should be visible  */
+    width: 100%;  /* Make images fit width of device screen */
+    line-height: 1em; /* If image path breaks, alt text should be visible  */
 }
-
 
 /********* Contact Page Specific **************/
 
-
-
+/* Style location h2 text in middle of the scren */
 #ksail-location h2 {
     text-align: center;
 }
 
+/* Style the main enquiry container */
 #ksail-enquiry-container {
     width: 100%;
-    background: url("../images/ksail-enquiry.webp") no-repeat center center/cover;
+    background: url("../images/ksail-enquiry.webp") no-repeat center center/cover; /* Give the container a background image */
     position: relative;
 }
 
-/* Add a background image to the Contact form page */
+/* Style the enquiry divs  */
 #ksail-enquiry {
-    background-color: #003366c5;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: center;
-    flex-basis: 200px;
+    background-color: #003366c5; /* Give the div an opaque background for contrast */
+    display: flex;                 /* Use flexbox for responsiveness */
+    flex-wrap: wrap;               /* allows divs break into two lines on mobile phone and one line on larger screen */
+    justify-content: space-around; /* space evenly start/end gaps half of gap between divs */
+    align-content: center;         /* Center the divs in the flexbox */
+    flex-basis: 200px;             /* Give the divs a starting size */
 }
 
+/* style the enquiry div's grow */
 #ksail-enquiry>div {
     flex-grow: 1;
 
@@ -443,17 +427,15 @@ h3 {
     padding: 30px;
 }
 
-
-/* Form header pop */
+/* make the form header text pop */
 #ksail-form>h2 {
     color: #ffffff;
     font-size: 0.9rem;
     margin-bottom: 10px;
 }
 
-/* Format input fields */
-.text-input,
-.tel-input {
+/* Format input fields text and telephone */
+.text-input,.tel-input {
     background: transparent;
     color: #fafafa;
     width: 100%;
@@ -464,12 +446,11 @@ h3 {
     padding: 0 5px;
 }
 
-/* Form enquiry items Taste, Start, Improver */
-
+/* Format enquiry items Taste, Start, Improver */
 .ksail-select {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+    width: 100%; /* Use 100% of the pace */
+    display: flex; /* use flex */
+    justify-content: space-between; /* Distribute items evenly */
 }
 
 /* Style Submit Button */
@@ -482,8 +463,8 @@ h3 {
     color: #fafafa;
 }
 
+/* Style address section */
 #ksail-address {
-    /* Comment out for testing background-color: rgba(60, 60, 60, 0.7); */
     padding-left: 10px;
     padding-bottom: 20px;
 }
@@ -500,10 +481,12 @@ h3 {
     padding: 5px;
 }
 
+/* Style map section on contact page */
 #map-wrap {
-    height: 300px;
+    height: 300px; /* Set wrapper height of div */
 }
 
+/* Style map iframe */
 iframe {
     width: 100%;
     height: 100%;
@@ -524,30 +507,27 @@ iframe {
     }
 
     footer {
-        position: fixed;
-        /* Keep footer in position when scrolling */
-        z-index: 99;
-        /* Raise header on z axis to layer above everything */
-        width: 100%;
-        /* Fill full width */
-        box-shadow: 0px -2px 6px 0px #3A3A3A;
-        bottom: 0;
-        /* Fix footer to bottom of the screen */
+        position: fixed; /* Keep footer in position when scrolling */
+        z-index: 99;     /* Raise header on z axis to layer above everything */
+        width: 100%;     /* Fill full width */
+        box-shadow: 0px -2px 6px 0px #3A3A3A; /* Give a 3D effect to footer */
+        bottom: 0;      /* Fix footer to bottom of the screen */
     }
 
     /************ Index Page Specific ***************/
-   
+    /* Style the hero text */  
     #hero-text>h2,
     #hero-text>h3 {
         color: #ffffff;
         text-shadow: 1px 1px 1px #3A3A3A;
     }
-
+     
+    /* Style h3 hero text specifically */
     #hero-text>h3 {
         font-size: 1rem;
     }
 
-    /* Style intro text on page */
+    /* Style h2 intro text on page */
     #ksail-reasons>h2 {
         font-size: 1rem;
         padding-top: 10px;
@@ -557,6 +537,7 @@ iframe {
         background-color: #003366;
     }
 
+    /* Style h3 intro text on page */
     #ksail-reasons>h3 {
         font-size: 1rem;
         padding-top: 5px;
@@ -565,6 +546,7 @@ iframe {
 
     /*********** Contact Page Specific *********/
 
+    /* Style h2 text on page splitter */
     #ksail-location h2 {
         font-size: 1rem;
         padding-top: 1.25rem;
@@ -573,12 +555,14 @@ iframe {
 
     /*********** Gallery Page Specific *********/
 
+    /* Style gallery h2 text */
     #ksail-gallery>h2 {
         text-align: center;
         font-size: 1rem;
         padding: 10px 0;
     }
 
+    /* Add a gap between rows of gallery */
     #ksail-photos {
         row-gap: .25rem;
     }
@@ -592,52 +576,48 @@ iframe {
 
     /************ General Styling *****************/
 
+    /* Style logo text for tablets */
     #logo {
-        font-size: 280%;
+        font-size: 280%; /* increase the font size */
         line-height: 75px;
         margin: 0.5rem;
     }
 
-    /* Header */
+    /* Header section */
+
+    /* Style nav bar */
     nav {
-        display: block;
-        /* always show */
-        position: relative;
-        /* show inside header */
-        box-shadow: none;
-        /* remove box shadow */
-        width: fit-content;
-        /* Change width to fit content */
-        padding-right: 1rem;
-        /* add some padding on right to keep off border */
+        display: block;         /* always show */
+        position: relative;     /* show inside header */
+        box-shadow: none;       /* remove box shadow */
+        width: fit-content;     /* Change width to fit content */
+        padding-right: 1rem;    /* add some padding on right to keep off border */
     }
 
+    /* Style menu */
     #menu {
-        display: flex;
-        /* Show menu items in a row */
+        display: flex;         /* Show menu items in a row */
     }
 
+    /* Style menu list items */
     #menu>li {
-        padding-left: 1rem;
-        /* Add padding between meny items */
-        font-size: 1.5rem;
-        /* font-weight: 700; */
+        padding-left: 1rem;    /* Add padding between meny items */
+        font-size: 1.5rem;     /* Increase font size; */
     }
 
+    /* Style the nav toggle label */
     .toggle-nav-label {
-        display: none;
-        /* Hide nav label */
+        display: none;        /* Hide nav label */
     }
 
-
-
+    /* Style the main section of the page */
     main {
-        /* Push main content down 75px on the larget screen */
-        margin-top: 75px;
+        margin-top: 75px; /* Push main content down 75px on the larger screen */
     }
 
     /************** Index Page Specific ***************/
 
+    /* Style the hero text on the index page */
     #hero-text {
         width: 300px;
         right: 30px;
@@ -655,12 +635,13 @@ iframe {
         flex: 1;
     }
 
+    /**** On larger screens make Section1 div's and Section2 div's split left and right ****/
+
     /* section 1 div's align at start of flex box, in this case left */
     #ksail-benefits-section1>div {
         align-self: flex-start;
         padding: 1rem;
     }
-
 
     /* section 2 div's align at end of flex box, in this case right */
     #ksail-benefits-section2>div {
@@ -668,21 +649,25 @@ iframe {
         padding: 1rem;
     }
 
+    /* Style text in KSail section over hero image */
     #ksail-text {
         width: 300px;
         right: 30px;
     }
 
+    /* Set minimum height of choice boxes to align content */
     .ksail-choice-list {
         min-height: 300px;
     }
 
     /************* About Page Specific Styling ***************/
 
+    /* Style the  intro section */
     #about-intro {
         margin: 10px auto;
     }
 
+    /* Style the h3 intro text */
     #about-intro h3 {
         font-size: 1.5rem;
 
@@ -697,10 +682,12 @@ iframe {
         column-gap: 0.25rem;
     }
 
+    /* Add padding to the top of the gallery page to push down */
     #ksail-gallery {
         padding-top: 50px;
     }
 
+    /* Style the h2 text at the top of the gallery page */
     #ksail-gallery>h2 {
         font-size: 1.5rem;
         padding: 20px 0;
@@ -710,31 +697,32 @@ iframe {
 
     /* Ksail enquiry container styling */
     #ksail-enquiry-container {
-        padding-top: 10vh;
-        height: 65vh;
+        padding-top: 10vh; /* Push down the container */
+        height: 65vh;      /* Set the container height */
     }
 
     /* Contact form styling */
     #ksail-enquiry {
-        width: 80%;
+        width: 80%;                            /* Set the width of the enquiry form section */
         margin: 0 auto;
-        background-position: center;
-        display: flex;
+        display: flex;                         /* Set flexbox */
         flex-wrap: wrap;
-        justify-content: space-around;
-        align-content: center;
+        justify-content: space-around;         /* Distribute items evenly with space of start/end gaps half of the gap between */
+        align-content: center;                 /* Align the enquiry divs on the center line */
 
     }
 
+    /* Style the enqiry div's */
     #ksail-enquiry>div {
         padding-top: 40px;
         flex-grow: 1;
         flex-basis: 200px;
-        max-width: 45%;
+        max-width: 45%;                        /* Set max width for larger screens */
     }
 
+    /* Style the h2 text in the middle of the contact page */
     #ksail-location h2 {
-        font-size: 1.25rem;
+        font-size: 1.25rem;                     /* Make the text larger */
     }
 
 }
@@ -745,6 +733,7 @@ iframe {
 
     /*********** General Styling ***********/
 
+    /* Style hover function on larger screens for menu items */
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
@@ -761,16 +750,19 @@ iframe {
         padding: 1rem;
     }
 
+    /* Set minimum height of choice boxes to align content */
     .ksail-choice-list {
         min-height: 250px;
     }
 
     /*********** About Page Specific **********/
 
+    /* Style the text on the intro section of the about page */
     #about-intro {
-        margin: 10px auto;
+        margin: 10px auto;      /* Give the intro section a margin top and bottom and set left/right to auto */
     }
 
+    /* Style the h3 intro text */
     #about-intro h3 {
         font-size: 1.5rem;
 
@@ -778,10 +770,10 @@ iframe {
 
     /*********** Gallery Specific ***********/
 
-    /*  Gallery images 4 columns */
+    /*  Gallery images 4 columns and add a gap between the columns */
     #ksail-photos {
         column-count: 4;
-        column-gap: .25rem;
+        column-gap: .25rem; 
     }
 
     /************ Contact Page Specific **********/
@@ -789,11 +781,8 @@ iframe {
     /* Position contact form exactly where I want it on page */ 
     #ksail-form {
         max-width: 400px;
-        /* Move it outside the normal document */
-        /* position: absolute; */
-        left: 15%;
-        /* position it from the top */
-        top: 250px;
+        left: 15%;              /* Position from the left */
+        top: 250px;             /* position it from the top */
     }
 
 }
